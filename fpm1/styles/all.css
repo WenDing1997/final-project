@@ -1,0 +1,152 @@
+/* Begin all.css styling */
+
+/*---------------------- Handle custom fonts here -----------------------------*/
+
+/*Font by Khrys Bosland, src: http://www.fontspace.com/khryskreations/kbreindeergames */
+@font-face{
+  font-family: "cabin";
+  src: url('../fonts/Cabin-Regular.ttf');
+}
+
+@font-face{
+  font-family: "lobster";
+  src: url('../fonts/LobsterTwo-Regular.ttf');
+}
+/*---------------------------- End fonts --------------------------------------*/
+
+/**/
+
+#main_container{
+  color: inherit;
+  /*background-color: #d1d1e0;*/
+  width: auto;
+  height: auto;
+  /*border: 1px solid purple;*/
+  font-family: cabin;
+}
+
+#logo_div{
+  width: auto;
+  height: auto;
+  position: relative;
+  padding: 30px 0px 10px 0px;
+  /*border: 1px solid blue;*/
+}
+
+#logo_div_inner{
+  width: 40%;
+  margin: 0 auto; /* Centers element */
+  /*border: solid 1px black;*/
+}
+
+#logo_div_inner img{
+  width: 100%;
+}
+
+#logo_tag{
+  height: auto;
+  text-align: center;
+  /*background-color: lightblue;*/
+}
+
+#logo_tag h2{
+  /*margin: 0px;*/
+}
+
+nav{
+  text-align: center;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  border-top: solid 1px #e0e0eb;
+  border-bottom: solid 1px #e0e0eb;
+  font-size: 1.1em;
+  font-family: cabin;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 30px;
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover, .sublist:hover .dropbtn {
+    background-color: #e0e0eb;
+    transition: 0.25s;
+}
+
+nav li.sublist {
+    display: inline-block;
+}
+
+.sublist_content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-top: solid 0.5px #e0e0eb;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    z-index: 1;
+}
+
+.sublist_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.sublist-content a:hover{
+  background-color: #f1f1f1
+}
+
+.sublist:hover .sublist_content {
+    display: block;
+}
+
+/*Begin footer styling*/
+
+footer{
+  margin: 30px 0px 0px 0px;
+  /*background-color: #e6e600;*/
+}
+
+#back_btn{
+  margin: 0px;
+  padding: 12px 0px 12px 0px;
+  width: 100%;
+  text-align: center;
+  background-color: #595959;
+  border: 1px solid black;
+  color: #cccc00;
+}
+
+#back_btn:hover{
+  color: #e6e600;
+  background-color: #737373;
+}
+
+#catchphrase{
+  width: 100%;
+  text-align: center;
+  /*transform: rotate(-3deg);*/
+  font-size: 2em;
+  font-family: lobster;
+  margin: 0px;
+}
+
+#catchphrase p{
+  transform: rotate(-3deg);
+}
