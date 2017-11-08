@@ -10,26 +10,36 @@ THINGS THAT STILL NEED TO BE DONE:
 
 INDEX.php:
 
-finish footer (social-media links)
-finish directions div
-create image slideshow (jQuery)
-make events div editable from a .txt file/internally through the website
-EVENTS.php: -create webpage
+ - finish footer (social-media links)
+ - finish directions div
+ - create image slideshow (jQuery)
+ - make events div editable from a .txt file/internally through the website
+ - EVENTS.php: -create webpage
 
-OUR-BEERS.php: -create webpage
+OUR-BEERS.php: 
 
-FIND-OUR-BEERS.php: -create webpage
+ - create webpage
 
-PHOTOS.php: -create webpage
+FIND-OUR-BEERS.php: 
+ -create webpage
 
-COMMUNITY.php: -create webpage
+PHOTOS.php: 
+ -create webpage
 
-STORE.php: -create webpage
+COMMUNITY.php: 
+ -create webpage
 
-ABOUT-US.php: -create webpage
+STORE.php: 
+ -create webpage
 
-DIRECTIONS.php: -create webpage
+ABOUT-US.php: 
+ -create webpage
 
-FOR-VENDORS.php: -create webpage
+DIRECTIONS.php: 
+ -create webpage
 
-EMPLOYMENT.php: -create webpage
+FOR-VENDORS.php:  
+ -create webpage
+
+EMPLOYMENT.php: 
+ -create webpage
