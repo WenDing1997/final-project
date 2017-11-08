@@ -8,6 +8,11 @@ Note on the Contract Document: it is an .odt file, which is an extension used by
 
 THINGS THAT STILL NEED TO BE DONE:
 
+GENERAL
+
+ - add interactive elements (jQuery & PHP)
+ - ideas: slideshow, FunFactSlider
+
 INDEX.php:
 
  - finish footer (social-media links)
@@ -21,25 +26,25 @@ OUR-BEERS.php:
  - create webpage
 
 FIND-OUR-BEERS.php: 
- -create webpage
+ - create webpage
 
 PHOTOS.php: 
- -create webpage
+ - create webpage
 
 COMMUNITY.php: 
- -create webpage
+ - create webpage
 
 STORE.php: 
- -create webpage
+ - create webpage
 
 ABOUT-US.php: 
- -create webpage
+ - create webpage
 
 DIRECTIONS.php: 
- -create webpage
+ - create webpage
 
 FOR-VENDORS.php:  
- -create webpage
+ - create webpage
 
 EMPLOYMENT.php: 
- -create webpage
+ - create webpage
