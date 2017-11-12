@@ -22,6 +22,12 @@
         href="styles/our-beers.css"
         media="all">
 
+  <!-- Link find-our-beers.css -->
+  <link rel="stylesheet"
+        type="text/css"
+        href="styles/find-our-beers.css"
+        media="all">
+
   <!-- Set encoding -->
   <meta charset="utf-8">
 

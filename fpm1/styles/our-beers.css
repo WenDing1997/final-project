@@ -8,6 +8,7 @@
   font-family: lobster, cursive;
   font-size: 1.5em;
   width: 70%;
+  border-bottom: 0.5px solid #a1bbd0;
 }
 
 #main_flex_wrapper{
@@ -28,7 +29,9 @@
 }
 
 .sub_flex_wrapper img{
-    border-radius: 7px;
+    border-radius: 8px;
+    min-height: 240px;
+    min-width: 82%;
 }
 
 .sub_flex_wrapper h3{
@@ -45,7 +48,7 @@
 
 .p1{
   padding: 0px 0px 15px 0px;
-  min-height: 110px;
+  min-height: 25%;
   border-bottom: 1px dotted #1e1e1e;
 }
 

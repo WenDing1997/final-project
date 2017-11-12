@@ -17,7 +17,53 @@
 
 <!-- NEW CODE GOES HERE -->
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in urna id velit placerat viverra. Aenean scelerisque rutrum dolor. Suspendisse porta, lacus ut ullamcorper tempor, lacus libero aliquam augue, sit amet egestas ex arcu id metus. Fusce lorem metus, mattis tristique lectus eget, sollicitudin congue nibh. Aliquam sed felis lacus. Quisque vulputate porttitor mi et gravida. Ut vulputate eros vitae bibendum laoreet. Cras faucibus egestas erat venenatis interdum. Sed quis mi molestie, venenatis ligula vitae, malesuada nisi. Morbi vestibulum a risus sit amet ullamcorper. Nunc metus erat, dignissim eget feugiat vel, vehicula ut diam. Integer feugiat leo magna, malesuada varius arcu rutrum non. Etiam quis scelerisque risus. Donec facilisis erat eu sem vulputate interdum. Fusce consequat ante eros, in porta nulla fermentum dignissim.</p>
+  <h2>Find our beers.</h2>
+
+  <div id="=main_flex_wrapper_2">
+
+    <div class="sub_flex_wrapper_2">
+      <div class="spacer_div"></div>
+      <div class="market_img">
+        <img src="images/brookton.jpg" alt="brookton_market" />
+      </div>
+      <div class="market_description">
+        <div>
+          <h2>Brookton's Market</h2>
+          <p>Hours</p>
+          <p>607-539-7900</br>info@brooktonsmarket.com</br>491 Brooktondale Road, Brooktondale, NY 14817<p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub_flex_wrapper_2">
+      <div class="spacer_div"></div>
+      <div class="market_img">
+        <img src="images/ic_gateway.png" alt="brookton_market" />
+      </div>
+      <div class="market_description">
+        <div>
+          <h2>Ithaca Coffee Company @ Gateway</h2>
+          <p>Hours</p>
+          <p>607-539-7900</br>info@brooktonsmarket.com</br>491 Brooktondale Road, Brooktondale, NY 14817<p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub_flex_wrapper_2">
+      <div class="spacer_div"></div>
+      <div class="market_img">
+        <img src="images/ic_triphammer.jpg" alt="brookton_market" />
+      </div>
+      <div class="market_description">
+        <div>
+          <h2>Ithaca Coffee Company @ Triphammer</h2>
+          <p>Hours</p>
+          <p>607-539-7900</br>info@brooktonsmarket.com</br>491 Brooktondale Road, Brooktondale, NY 14817<p>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
 <!-- NEW CODE ENDS HERE -->
 
