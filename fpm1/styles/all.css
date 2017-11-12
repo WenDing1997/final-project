@@ -130,6 +130,63 @@ nav li.sublist {
     display: block;
 }
 
+/* Begin responsive nav*/
+
+#responsive_menu_div{
+  width:100%;
+  text-align: center;
+}
+
+#responsive_menu_btn{
+  display: none;
+  width:100%;
+  margin: 0px auto;
+  vertical-align: middle;
+  padding: 10px 0px 10px 0px;
+  background-color: white;
+  border: none;
+  border-bottom: solid 1px #e0e0eb;
+  opacity: 0.85;
+}
+
+#responsive_menu_btn:hover{
+  cursor: pointer;
+}
+
+#navicon{
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+#responsive_menu_btn p{
+  padding-top: 0px;
+  margin: 0px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.da{
+  display: none;
+}
+
+.nav_menu_responsive{
+  display: none;
+}
+
+.nav_menu_responsive li{
+  display: block;
+}
+
+.nav_menu_responsive .hidden_beer{
+  display: none;
+}
+
+.nav_menu_responsive .hidden_contact{
+  display: none;
+}
+
 /* ------------------------Begin footer styling--------------------------*/
 
 footer{
@@ -206,10 +263,34 @@ footer{
 }
 
 /* Handle responsive CSS here */
-@media screen and (max-width: 700px) {
+@media screen and (max-width:1000px) {
+
+#logo_div{
+  border-bottom: solid 1px #e0e0eb;
+  padding: 10px 0px 10px 0px;
+}
+
+#logo_div_inner{
+  width: 50%;
+  margin: 0 auto; /* Centers element */
+  /*border: solid 1px black;*/
+}
 
 #image_wrapper{
   display: block;
+}
+
+nav{
+  display: none;
+  /*text-align: left;*/
+}
+
+nav li{
+  /*padding-left: 30%;*/
+}
+
+#responsive_menu_btn{
+  display: inline;
 }
 
 }

@@ -39,9 +39,14 @@
   <!-- Set title -->
   <title>Summerhill Brewing</title>
 
-  <!-- Include slideshow script for homepage-->
+  <!-- Load jQuery -->
+  <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <!-- Load slideshow script-->
   <script src="scripts/slideshow.js" type="text/javascript"></script>
+  <!-- Load back-button script -->
   <script src="scripts/back.js" type="text/javascript"></script>
+  <!-- Load responsive-nav script -->
+  <script src="scripts/responsive-nav.js" type="text/javascript"></script>
 
 
 </head>  <!-- End header -->
