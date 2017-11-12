@@ -16,9 +16,40 @@
   ?>
 
 <!-- NEW CODE GOES HERE -->
-  <div id="tagline">
-    <h2>Ethically-sourced and home-brewed, our ales are a smooth and delicious drinking experience.</h2>
+  <div id="tagline_div">
+    <div id="tagline">
+      <h2>Ethically-sourced and home-brewed, our ales are a smooth and delightful drinking experience.</h2>
+    </div>
   </div>
+
+  <div id="main_flex_wrapper">
+
+    <div class="sub_flex_wrapper">
+      <div class="beer_img">
+        <img />
+      </div>
+      <div class="beer_description">
+      </div>
+    </div>
+
+    <div class="sub_flex_wrapper">
+      <div class="beer_img">
+        <img />
+      </div>
+      <div class="beer_description">
+      </div>
+    </div>
+
+    <div class="sub_flex_wrapper">
+      <div class="beer_img">
+        <img />        
+      </div>
+      <div class="beer_description">
+      </div>
+    </div>
+
+  </div>
+
 <!-- NEW CODE ENDS HERE -->
 
 

@@ -2,10 +2,26 @@
 
   <footer>
 
+    <div id="catchphrase"><p>"Worth the trip up the hill!"</p></div>
+
     <button id="back_btn">Back to Top</button>
 
-    <div id="catchphrase"><p>Worth the trip up the hill!"</p></div>
+    <div id="footer_content">
 
-    <div></div>
+      <div id="footer_text">
+        <p>Summerhill Brewing, LLC</p>
+        <p>607.591.6148&emsp;|&emsp;<a href="mailto:summerhill.brewing@gmail.com">summerhill.brewing@gmail.com</a></p>
+      </div>
+
+      <div id="img_wrapper">
+        <a href="https://www.facebook.com/pg/Summerhill.brewing/photos/" target="_blank">
+          <img id="fb" src="../images/facebook.PNG" alt="facebook"></a>
+        <a href="https://untappd.com/w/summerhill-brewing/297250/photos" target="_blank">
+          <img id="tw" src="../images/twitter.PNG" alt="twitter"></a>
+        <a href="https://untappd.com/w/summerhill-brewing/297250/photos" target="_blank">
+          <img id="in" src="../images/instagram.PNG" alt="instagram"></a>
+      </div>
+
+    </div>
 
   </footer> <!-- end footer -->
