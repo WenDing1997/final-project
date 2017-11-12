@@ -16,10 +16,13 @@
   ?>
 
 <!-- NEW CODE GOES HERE -->
+  <div id="tagline_2_div">
+    <div id="tagline_2">
+      <h2>Love our beer? Here are some local markets that carry our ales and lagers.</h2>
+    </div>
+  </div>
 
-  <h2>Find our beers.</h2>
-
-  <div id="=main_flex_wrapper_2">
+  <div id="main_flex_wrapper_2">
 
     <div class="sub_flex_wrapper_2">
       <div class="spacer_div"></div>
@@ -29,8 +32,15 @@
       <div class="market_description">
         <div>
           <h2>Brookton's Market</h2>
-          <p>Hours</p>
+          <p id="hours">Hours:</p>
+          <ul>
+            <li>Monday - Thursday: 7:30am - 9pm</li>
+            <li>Friday: 7:30am - 11pm</li>
+            <li>Satruday: 8:30am - 11pm</li>
+            <li>Sunday: 9:00am - 7pm</li>
+          </ul>
           <p>607-539-7900</br>info@brooktonsmarket.com</br>491 Brooktondale Road, Brooktondale, NY 14817<p>
+          <p><a href="http://www.brooktonsmarket.com/" target="_blank">www.brooktonsmarket.com</a></p>
         </div>
       </div>
     </div>
@@ -43,8 +53,14 @@
       <div class="market_description">
         <div>
           <h2>Ithaca Coffee Company @ Gateway</h2>
-          <p>Hours</p>
-          <p>607-539-7900</br>info@brooktonsmarket.com</br>491 Brooktondale Road, Brooktondale, NY 14817<p>
+          <p id="hours">Hours:</p>
+          <ul>
+            <li>Monday - Friday: 7:00am - 9pm</li>
+            <li>Satruday: 8:00am - 9pm</li>
+            <li>Sunday: 8:00am - 6pm</li>
+          </ul>
+          <p>607-257-2626</br>info@ithacacoffee.com</br>311 E. Green St.Ithaca, NY 14850<p>
+          <p><a href="https://www.ithacacoffee.com/our-stores/our-taverns">www.ithacacoffee.com</a></p>
         </div>
       </div>
     </div>
@@ -52,13 +68,19 @@
     <div class="sub_flex_wrapper_2">
       <div class="spacer_div"></div>
       <div class="market_img">
-        <img src="images/ic_triphammer.jpg" alt="brookton_market" />
+        <img src="images/ic_triphammer.jpg" alt="ic@triphammer" />
       </div>
       <div class="market_description">
         <div>
           <h2>Ithaca Coffee Company @ Triphammer</h2>
-          <p>Hours</p>
-          <p>607-539-7900</br>info@brooktonsmarket.com</br>491 Brooktondale Road, Brooktondale, NY 14817<p>
+          <p id="hours">Hours:</p>
+          <ul>
+            <li>Monday - Friday: 7:00am - 9pm</li>
+            <li>Satruday: 8:00am - 9pm</li>
+            <li>Sunday: 8:00am - 6pm</li>
+          </ul>
+          <p>607-257-2626</br>info@ithacacoffee.com</br>Triphammer Marketplace 2255 N.Triphammer Rd.</br>Ithaca, NY 14850<p>
+          <p><a href="https://www.ithacacoffee.com/our-stores/our-taverns">www.ithacacoffee.com</a></p>
         </div>
       </div>
     </div>

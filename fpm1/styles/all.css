@@ -30,7 +30,11 @@ a{
 }
 
 a:hover{
+  color: #a1bbd0;
+}
 
+a:active{
+  font-weight: bold;
 }
 
 #logo_div{
@@ -60,6 +64,8 @@ a:hover{
 #logo_tag h2{
   /*margin: 0px;*/
 }
+
+/* ---------------Handle normal navigation bar here--------------------------*/
 
 nav{
   text-align: center;
@@ -124,7 +130,7 @@ nav li.sublist {
     display: block;
 }
 
-/*Begin footer styling*/
+/* ------------------------Begin footer styling--------------------------*/
 
 footer{
   margin: 80px 0px 0px 0px;
