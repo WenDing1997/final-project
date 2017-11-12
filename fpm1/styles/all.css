@@ -198,3 +198,12 @@ footer{
 #in{
   max-width: 45px;
 }
+
+/* Handle responsive CSS here */
+@media screen and (max-width: 700px) {
+
+#image_wrapper{
+  display: block;
+}
+
+}
