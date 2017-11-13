@@ -7,6 +7,8 @@
   ?>
   <link rel="stylesheet" type="text/css" href="styles/directions.css" media="all"/>
 
+
+
 <body>
   <!-- Begin main_container for all body elements -->
   <div id="main_container">
@@ -24,13 +26,21 @@
 </div>
 
 <div id="main_div">
-<div id="main_text">
-  <p>Summerhill Brewing<p>
-  <p>384 Champlin Road<p>
-  <p>Groton, NY 13073<p>
-</div>
-</div>
+  <div id="map"></div>
+  <script src="scripts/map.js" type="text/javascript"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwTYp1sMRX-vkBjGfPQbTDpDyyEojZStA&callback=myMap"></script>
 
+  <div id="main_box">
+    <div id="main_text">
+      <p>Summerhill Brewing<p>
+      <p>384 Champlin Road<p>
+      <p>Groton, NY 13073<p>
+    </div>
+  </div>
+
+
+
+</div>
 <!-- NEW CODE ENDS HERE -->
 
 
@@ -39,7 +49,7 @@
     include "includes/footer.php";
   ?>
 
-  </div> <!-- end main_container div -->
+</div> <!-- end main_container div -->
 
 </body> <!-- end body -->
 </html> <!-- end html -->

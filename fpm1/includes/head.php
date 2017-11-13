@@ -3,6 +3,7 @@
 <!-- Set HTML -->
 <!DOCTYPE html>
 
+<html>
 <head>
   <!-- Link common stylesheet -->
   <link rel="stylesheet"
@@ -20,7 +21,7 @@
 
 
   <!-- Link find-our-beers.css -->
-  
+
 
   <!-- Link find-our-beers.css -->
   <link rel="stylesheet"
@@ -60,6 +61,5 @@
   <script src="scripts/back.js" type="text/javascript"></script>
   <!-- Load responsive-nav script -->
   <script src="scripts/responsive-nav.js" type="text/javascript"></script>
-
 
 </head>  <!-- End header -->

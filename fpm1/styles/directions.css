@@ -14,6 +14,26 @@
   width: 100%;
 }
 
-#main_text{
+#main_box{
   width: 70%;
+  margin: auto;
+}
+
+#main_text{
+  width: 20%;
+  margin:
+  /*border: 1px solid red;*/
+}
+
+#main_text p{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+#map{
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
