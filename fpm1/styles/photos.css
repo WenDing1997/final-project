@@ -1,11 +1,3 @@
-#title {
-  margin: 0px auto;
-  width: 70%;
-  font-family: 'cabin-condensed';
-  border-bottom: 1px solid #a1bbd0;
-  font-size: 1.5em;
-}
-
 #photo-div {
   display: flex;
   flex-direction: row;

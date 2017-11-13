@@ -1,17 +1,4 @@
 /* Begin our beers styling */
-#tagline_div{
-  width: 100%;
-}
-
-#tagline{
-  margin: 0px auto;
-  font-family: 'cabin-condensed';
-  /*font-family: lobster, cursive;*/
-  font-size: 1.5em;
-  width: 70%;
-  border-bottom: 1px solid #a1bbd0;
-}
-
 #main_flex_wrapper{
   display: flex;
   flex-direction: column;
