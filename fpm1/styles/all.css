@@ -71,6 +71,18 @@ a:active{
   /*margin: 0px;*/
 }
 
+#tagline_div{
+  width: 100%;
+}
+
+#tagline {
+  margin: 0px auto;
+  font-family: 'cabin-condensed';
+  font-size: 1.5em;
+  width: 70%;
+  border-bottom: 1px solid #a1bbd0;
+}
+
 /* ---------------Handle normal navigation bar here--------------------------*/
 
 nav{

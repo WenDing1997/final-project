@@ -1,5 +1,4 @@
 <!-- Being hours & events html -->
-<html>
 
   <!-- Include html header -->
   <?php
@@ -9,6 +8,7 @@
         type="text/css"
         href="styles/our-beers.css"
         media="all">
+</head>
 
 <body>
   <!-- Begin main_container for all body elements -->

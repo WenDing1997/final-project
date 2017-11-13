@@ -1,5 +1,4 @@
 <!-- Being hours & events html -->
-<html>
 
   <!-- Include html header -->
   <?php
@@ -9,6 +8,7 @@
         type="text/css"
         href="styles/find-our-beers.css"
         media="all">
+</head>
 
 <body>
   <!-- Begin main_container for all body elements -->
@@ -20,8 +20,8 @@
   ?>
 
 <!-- NEW CODE GOES HERE -->
-  <div id="tagline_2_div">
-    <div id="tagline_2">
+  <div id="tagline_div">
+    <div id="tagline">
       <h2>Love our beer? Here are some local markets that carry our ales and lagers.</h2>
     </div>
   </div>

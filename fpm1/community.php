@@ -9,6 +9,7 @@
         type="text/css"
         href="styles/community.css"
         media="all">
+</head>
 
 <body>
   <!-- Begin main_container for all body elements -->
@@ -20,8 +21,8 @@
   ?>
 
 <!-- NEW CODE GOES HERE -->
-  <div id="title_div">
-    <div id="title">
+  <div id="tagline_div">
+    <div id="tagline">
       <h2>Our emphasis on community</h2>
     </div>
   </div>
