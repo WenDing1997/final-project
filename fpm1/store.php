@@ -23,8 +23,32 @@
   </div>
 </div>
 
-<!-- NEW CODE ENDS HERE -->
+<div id="storeflex-wrapper">
+    <div>
+      <h3><span class="bold">T-Shirt<span></h3>
+      <img src="images/tshirt.jpg">
+      <p>Price: $16.99 </p>
+      <div>
+      </div>
+    </div>
+    <div>
+      <h3><span class="bold">Beer Mug<span></h3>
+      <img src="images/mug.jpg">
+      <p>Price: $10.99 </p>
+    </div>
+    <div>
+      <h3><span class="bold">Beer Coaster<span></h3>
+      <img src="images/coaster.jpg">
+      <p>Price: $5.99 </p>
+    </div>
+    <div>
+      <h3><span class="bold">Gift Basket<span></h3>
+      <img src="images/giftbasket.jpg">
+      <p>Price: $12.99 </p>
+    </div>
+</div>
 
+<!-- NEW CODE ENDS HERE -->
 
   <!-- include footer  section -->
   <?php
