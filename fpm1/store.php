@@ -27,24 +27,26 @@
     <div>
       <h3><span class="bold">T-Shirt<span></h3>
       <img src="images/tshirt.jpg">
-      <p>Price: $16.99 </p>
-      <div>
-      </div>
+      <p class="price">Price: $16.99 </p>
+      <p class="buybutton">Buy now</p>
     </div>
     <div>
       <h3><span class="bold">Beer Mug<span></h3>
       <img src="images/mug.jpg">
-      <p>Price: $10.99 </p>
+      <p class="price">Price: $10.99 </p>
+      <p class="buybutton">Buy now</p>
     </div>
     <div>
       <h3><span class="bold">Beer Coaster<span></h3>
       <img src="images/coaster.jpg">
-      <p>Price: $5.99 </p>
+      <p class="price">Price: $5.99 </p>
+      <p class="buybutton">Buy now</p>
     </div>
     <div>
       <h3><span class="bold">Gift Basket<span></h3>
       <img src="images/giftbasket.jpg">
-      <p>Price: $12.99 </p>
+      <p class="price">Price: $12.99 </p>
+      <p class="buybutton">Buy now</p>
     </div>
 </div>
 

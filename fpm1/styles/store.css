@@ -31,9 +31,24 @@
   font-size:30px;
 }
 
-#storeflex-wrapper p {
+#storeflex-wrapper .price {
   font-size:18px;
+  margin-top:2%;
+  margin-bottom: 0%;
 }
+
+.buybutton {
+  font-size:20px;
+  text-decoration: underline;
+  text-align: center;
+  background-color: #87CEFA;
+  display: inline-block;
+  padding:8px;
+  border-radius:5px;
+  border:2px solid #3396FF;
+}
+
+
 
 @media screen and (max-width: 700px) {
   #storeflex-wrapper img{
