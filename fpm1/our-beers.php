@@ -5,6 +5,10 @@
   <?php
     include "includes/head.php";
   ?>
+  <link rel="stylesheet"
+        type="text/css"
+        href="styles/our-beers.css"
+        media="all">
 
 <body>
   <!-- Begin main_container for all body elements -->
@@ -18,7 +22,7 @@
 <!-- NEW CODE GOES HERE -->
   <div id="tagline_div">
     <div id="tagline">
-      <h2>Ethically-sourced and home-brewed, our ales are a smooth and delightful drinking experience.</h2>
+      <h2>Ethically-sourced and home-brewed, our beers offer a smooth and delightful drinking experience.</h2>
     </div>
   </div>
 

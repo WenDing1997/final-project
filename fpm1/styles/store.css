@@ -1,0 +1,42 @@
+#tagline_div_5{
+  width: 100%;
+}
+
+#tagline_5{
+  margin: 0px auto;
+  font-family: lobster, cursive;
+  font-size: 1.5em;
+  width: 70%;
+  border-bottom: 0.5px solid #a1bbd0;
+}
+
+#storeflex-wrapper{
+  display:flex;
+  flex-direction:column;
+}
+
+#storeflex-wrapper div {
+  text-align: center;
+  margin-left: 17%;
+  margin-right:17%;
+  border-bottom: 0.5px solid #a1bbd0;
+}
+
+#storeflex-wrapper img{
+  width:40%;
+  border-radius:8px;
+}
+
+.bold {
+  font-size:30px;
+}
+
+#storeflex-wrapper p {
+  font-size:18px;
+}
+
+@media screen and (max-width: 700px) {
+  #storeflex-wrapper img{
+    width:100%;
+  }
+}

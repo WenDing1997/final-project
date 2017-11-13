@@ -17,10 +17,38 @@
 
 <!-- NEW CODE GOES HERE -->
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in urna id velit placerat viverra. Aenean scelerisque rutrum dolor. Suspendisse porta, lacus ut ullamcorper tempor, lacus libero aliquam augue, sit amet egestas ex arcu id metus. Fusce lorem metus, mattis tristique lectus eget, sollicitudin congue nibh. Aliquam sed felis lacus. Quisque vulputate porttitor mi et gravida. Ut vulputate eros vitae bibendum laoreet. Cras faucibus egestas erat venenatis interdum. Sed quis mi molestie, venenatis ligula vitae, malesuada nisi. Morbi vestibulum a risus sit amet ullamcorper. Nunc metus erat, dignissim eget feugiat vel, vehicula ut diam. Integer feugiat leo magna, malesuada varius arcu rutrum non. Etiam quis scelerisque risus. Donec facilisis erat eu sem vulputate interdum. Fusce consequat ante eros, in porta nulla fermentum dignissim.</p>
+<div id="tagline_5_div">
+  <div id="tagline_5">
+    <h2>Buy our Summerhill Brewing merchandise! </h2>
+  </div>
+</div>
+
+<div id="storeflex-wrapper">
+    <div>
+      <h3><span class="bold">T-Shirt<span></h3>
+      <img src="images/tshirt.jpg">
+      <p>Price: $16.99 </p>
+      <div>
+      </div>
+    </div>
+    <div>
+      <h3><span class="bold">Beer Mug<span></h3>
+      <img src="images/mug.jpg">
+      <p>Price: $10.99 </p>
+    </div>
+    <div>
+      <h3><span class="bold">Beer Coaster<span></h3>
+      <img src="images/coaster.jpg">
+      <p>Price: $5.99 </p>
+    </div>
+    <div>
+      <h3><span class="bold">Gift Basket<span></h3>
+      <img src="images/giftbasket.jpg">
+      <p>Price: $12.99 </p>
+    </div>
+</div>
 
 <!-- NEW CODE ENDS HERE -->
-
 
   <!-- include footer  section -->
   <?php

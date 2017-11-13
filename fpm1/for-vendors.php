@@ -16,9 +16,74 @@
   ?>
 
 <!-- NEW CODE GOES HERE -->
+<div id="tagline_3_div">
+  <div id="tagline_3">
+    <h2>Interested in being a vendor? Fill in the form below!</h2>
+  </div>
+</div>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in urna id velit placerat viverra. Aenean scelerisque rutrum dolor. Suspendisse porta, lacus ut ullamcorper tempor, lacus libero aliquam augue, sit amet egestas ex arcu id metus. Fusce lorem metus, mattis tristique lectus eget, sollicitudin congue nibh. Aliquam sed felis lacus. Quisque vulputate porttitor mi et gravida. Ut vulputate eros vitae bibendum laoreet. Cras faucibus egestas erat venenatis interdum. Sed quis mi molestie, venenatis ligula vitae, malesuada nisi. Morbi vestibulum a risus sit amet ullamcorper. Nunc metus erat, dignissim eget feugiat vel, vehicula ut diam. Integer feugiat leo magna, malesuada varius arcu rutrum non. Etiam quis scelerisque risus. Donec facilisis erat eu sem vulputate interdum. Fusce consequat ante eros, in porta nulla fermentum dignissim.</p>
+<form method="post" action="handlingform.php" id="vendorForm">
 
+        <div class="qsection">
+          <div class="question">
+            <label for="businessorg">Business/Company Name: </label>
+          </div>
+          <div class="answer">
+            <input name="businessorg" required>
+          </div>
+        </div>
+
+        <div class="qsection">
+          <div class="question">
+            <label for="address">Address: </label>
+          </div>
+          <div class="answer">
+            <textarea name="address"></textarea>
+          </div>
+        </div>
+
+        <div class="qsection">
+          <div class="question">
+            <label for="contactname">Contact Name:</label>
+          </div>
+          <div class="answer">
+            <input name="contactname" required>
+          </div>
+        </div>
+
+        <div class="qsection">
+          <div class="question">
+            <label for="lastName">Contact Email: </label>
+          </div>
+          <div class="answer">
+            <input type="email" name="userEmail" required>
+          </div>
+        </div>
+
+        <div class="qsection">
+          <div class="question">
+            <label for="telephone">Phone Number: </label>
+          </div>
+          <div class="answer">
+            <input name="telephone" required>
+          </div>
+        </div>
+
+        <div class="qsection">
+          <div class="question">
+            <label for="addq">Additional Inquiries: </label>
+          </div>
+          <div class="answer">
+            <textarea name="addq"></textarea>
+          </div>
+        </div>
+
+        <div>
+          <button id="submitbutton" type="submit" class="submit">Submit</button>
+        </div>
+    </form>
+
+    <img id="vendorcontactpic" src="images/vendorcontact.jpg" alt="vendorpicture"/>
 <!-- NEW CODE ENDS HERE -->
 
 
