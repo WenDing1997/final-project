@@ -22,6 +22,25 @@
   <!-- Link find-our-beers.css -->
   
 
+  <!-- Link find-our-beers.css -->
+  <link rel="stylesheet"
+      type="text/css"
+      href="styles/for-vendors.css"
+      media="all">
+
+  <!-- Link about-us.css -->
+
+  <link rel="stylesheet"
+      type="text/css"
+      href="styles/about-us.css"
+      media="all">
+
+  <link rel="stylesheet"
+      type="text/css"
+      href="styles/store.css"
+      media="all">
+
+
   <!-- Set encoding -->
   <meta charset="utf-8">
 

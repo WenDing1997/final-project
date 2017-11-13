@@ -16,13 +16,11 @@
   ?>
 
 <!-- NEW CODE GOES HERE -->
-
-<div id="tagline_5_div">
-  <div id="tagline_5">
-    <h2>Buy our Summerhill Brewing merchandise! </h2>
+<div id="tagline_3_div">
+  <div id="tagline_3">
+    <h2>Thanks for submitting our vendor form. We will get back to you as soon as we can. </h2>
   </div>
 </div>
-
 <!-- NEW CODE ENDS HERE -->
 
 
