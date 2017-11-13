@@ -1,0 +1,41 @@
+#tagline_div_4{
+  width: 100%;
+}
+
+#tagline_4{
+  margin: 0px auto;
+  font-family: lobster, cursive;
+  font-size: 1.5em;
+  width: 70%;
+  border-bottom: 0.5px solid #a1bbd0;
+}
+
+
+.aboutparagraph {
+  margin-left: 15%;
+  margin-right:15%;
+  font-size:18px;
+}
+
+#aboutuspic {
+  margin-left: 32%;
+  margin-top:2%;
+  margin-bottom:2%;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 700px) {
+
+  .aboutparagraph {
+    margin-left: 10%;
+    margin-right:10%;
+  }
+
+  #aboutuspic {
+    margin-top: 5%;
+    margin-left:15%;
+    width:70%;
+  }
+
+
+}
