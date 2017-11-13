@@ -19,7 +19,7 @@
       <li><a href="index.php">HOME</a></li>
       <li><a href="events.php">HOURS AND EVENTS</a></li>
       <li class="sublist">
-        <a class="dropbtn" href="javascript:void(0)">BEER</a>
+        <a class="dropbtn" href="our-beers.php">BEER</a>
         <div class="sublist_content">
           <a href="our-beers.php">Our Beers</a>
           <a href="find-our-beers.php">Find Our Beers</a>
@@ -30,7 +30,7 @@
       <li><a href="store.php">STORE</a></li>
       <li><a href="about-us.php">ABOUT US</a></li>
       <li class="sublist">
-        <a class="dropbtn" href="javascript:void(0)">CONTACT</a>
+        <a class="dropbtn" href="directions.php">CONTACT</a>
         <div class="sublist_content">
           <a href="directions.php">Directions</a>
           <a href="for-vendors.php">For Vendors</a>
@@ -54,14 +54,14 @@
     <ul>
       <li><a href="index.php">HOME</a></li>
       <li><a href="events.php">HOURS AND EVENTS</a></li>
-      <li id="beer"><a href="javascript:void(0)">BEER&emsp;<span class="da">&#9660;</span><span class="ra">&#9654;</span></a></li>
+      <li id="beer"><a href="javascript:void(0)">BEER&emsp;<span class="bda">&#9660;</span><span class="bra">&#9654;</span></a></li>
       <li class="hidden_beer"><a href="our-beers.php">Our Beers</a></li>
       <li class="hidden_beer"><a href="find-our-beers.php">Find Our Beers</a></li>
       <li><a href="photos.php">PHOTOS</a></li>
       <li><a href="community.php">COMMUNITY</a></li>
       <li><a href="store.php">STORE</a></li>
       <li><a href="about-us.php">ABOUT US</a></li>
-      <li id="contact"><a href="javascript:void(0)">CONTACT&emsp;<span class="da">&#9660;</span><span class="ra">&#9654;</span></a></li>
+      <li id="contact"><a href="javascript:void(0)">CONTACT&emsp;<span class="cda">&#9660;</span><span class="cra">&#9654;</span></a></li>
       <li class="hidden_contact"><a href="directions.php">Directions</a></li>
       <li class="hidden_contact"><a href="for-vendors.php">For Vendors</a></li>
       <li class="hidden_contact"><a href="employment.php">Employment</a></li>

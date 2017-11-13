@@ -16,29 +16,29 @@ $(document).ready(function () {
   $("#beer").click( function() {
     if (!beerIsOpen) {
       $(".hidden_beer").show();
-      $(".ra").hide();
-      $(".da").show();
+      $(".bra").hide();
+      $(".bda").show();
       beerIsOpen = true;
     } else {
       $(".hidden_beer").hide();
-      $(".da").hide();
-      $(".ra").show();
+      $(".bda").hide();
+      $(".bra").show();
       beerIsOpen = false;
     }  // end if
   });
 
   var contactIsOpen = false;;
   $("#contact").click( function() {
-    if (!beerIsOpen) {
+    if (!contactIsOpen) {
       $(".hidden_contact").show();
-      $(".ra").hide();
-      $(".da").show();
-      beerIsOpen = true;
+      $(".cra").hide();
+      $(".cda").show();
+      contactIsOpen = true;
     } else {
       $(".hidden_contact").hide();
-      $(".da").hide();
-      $(".ra").show();
-      beerIsOpen = false;
+      $(".cda").hide();
+      $(".cra").show();
+      contactIsOpen = false;
     }  // end if
   });
 

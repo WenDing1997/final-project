@@ -167,7 +167,7 @@ nav li.sublist {
   vertical-align: bottom;
 }
 
-.da{
+.bda, .cda{
   display: none;
 }
 
@@ -283,6 +283,10 @@ footer{
 nav{
   display: none;
   /*text-align: left;*/
+}
+
+nav ul{
+  border-top: none;
 }
 
 nav li{
