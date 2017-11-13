@@ -4,7 +4,7 @@
 
     <div id="catchphrase"><p>"Worth the trip up the hill!"</p></div>
 
-    <a href="nav"><button id="back_btn">Back to Top</button></a>
+    <button id="back_btn">Back to Top</button>
 
     <div id="footer_content">
 
