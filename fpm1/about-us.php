@@ -1,10 +1,13 @@
 <!-- Being hours & events html -->
-<html>
-
 <!-- Include html header -->
 <?php
 include "includes/head.php";
 ?>
+<link rel="stylesheet"
+    type="text/css"
+    href="styles/about-us.css"
+    media="all">
+</head>
 
 <body>
   <!-- Begin main_container for all body elements -->

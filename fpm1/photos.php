@@ -1,5 +1,4 @@
 <!-- Being hours & events html -->
-<html>
 
   <!-- Include html header -->
   <?php
@@ -9,6 +8,7 @@
         type="text/css"
         href="styles/photos.css"
         media="all">
+</head>
 
 <body>
   <!-- Begin main_container for all body elements -->
@@ -20,8 +20,8 @@
   ?>
 
 <!-- NEW CODE GOES HERE -->
-  <div id="title_div">
-    <div id="title">
+  <div id="tagline_div">
+    <div id="tagline">
       <h2>Photos of our brewery</h2>
     </div>
   </div>

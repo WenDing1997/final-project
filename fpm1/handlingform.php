@@ -1,5 +1,4 @@
 <!-- Being hours & events html -->
-<html>
 
   <!-- Include html header -->
   <?php
@@ -16,8 +15,8 @@
   ?>
 
 <!-- NEW CODE GOES HERE -->
-<div id="tagline_3_div">
-  <div id="tagline_3">
+<div id="tagline_div">
+  <div id="tagline">
     <h2>Thanks for submitting our vendor form. We will get back to you as soon as we can. </h2>
   </div>
 </div>

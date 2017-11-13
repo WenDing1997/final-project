@@ -1,10 +1,14 @@
 <!-- Being hours & events html -->
-<html>
 
   <!-- Include html header -->
   <?php
     include "includes/head.php";
   ?>
+  <link rel="stylesheet"
+      type="text/css"
+      href="styles/store.css"
+      media="all">
+</head>
 
 <body>
   <!-- Begin main_container for all body elements -->
@@ -17,8 +21,8 @@
 
 <!-- NEW CODE GOES HERE -->
 
-<div id="tagline_5_div">
-  <div id="tagline_5">
+<div id="tagline_div">
+  <div id="tagline">
     <h2>Buy our Summerhill Brewing merchandise! </h2>
   </div>
 </div>
