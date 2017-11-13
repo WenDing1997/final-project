@@ -5,6 +5,10 @@
   <?php
     include "includes/head.php";
   ?>
+  <link rel="stylesheet"
+        type="text/css"
+        href="styles/our-beers.css"
+        media="all">
 
 <body>
   <!-- Begin main_container for all body elements -->

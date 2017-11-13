@@ -1,0 +1,19 @@
+#tagline_div{
+  width: 100%;
+}
+
+#tagline{
+  margin: 0px auto;
+  font-family: lobster, cursive;
+  font-size: 1.5em;
+  width: 70%;
+  border-bottom: 0.5px solid #a1bbd0;
+}
+
+#main_div{
+  width: 100%;
+}
+
+#main_text{
+  width: 70%;
+}

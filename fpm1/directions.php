@@ -5,6 +5,7 @@
   <?php
     include "includes/head.php";
   ?>
+  <link rel="stylesheet" type="text/css" href="styles/directions.css" media="all"/>
 
 <body>
   <!-- Begin main_container for all body elements -->
@@ -16,8 +17,19 @@
   ?>
 
 <!-- NEW CODE GOES HERE -->
+<div id="tagline_div">
+  <div id="tagline">
+    <h2>We are easy to find!</h2>
+  </div>
+</div>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in urna id velit placerat viverra. Aenean scelerisque rutrum dolor. Suspendisse porta, lacus ut ullamcorper tempor, lacus libero aliquam augue, sit amet egestas ex arcu id metus. Fusce lorem metus, mattis tristique lectus eget, sollicitudin congue nibh. Aliquam sed felis lacus. Quisque vulputate porttitor mi et gravida. Ut vulputate eros vitae bibendum laoreet. Cras faucibus egestas erat venenatis interdum. Sed quis mi molestie, venenatis ligula vitae, malesuada nisi. Morbi vestibulum a risus sit amet ullamcorper. Nunc metus erat, dignissim eget feugiat vel, vehicula ut diam. Integer feugiat leo magna, malesuada varius arcu rutrum non. Etiam quis scelerisque risus. Donec facilisis erat eu sem vulputate interdum. Fusce consequat ante eros, in porta nulla fermentum dignissim.</p>
+<div id="main_div">
+<div id="main_text">
+  <p>Summerhill Brewing<p>
+  <p>384 Champlin Road<p>
+  <p>Groton, NY 13073<p>
+</div>
+</div>
 
 <!-- NEW CODE ENDS HERE -->
 
