@@ -12,6 +12,12 @@
   font-family: "lobster";
   src: url('../fonts/LobsterTwo-Regular.ttf');
 }
+
+@font-face {
+  font-family: "cabin-condensed";
+  src: url('../fonts/CabinCondensed-Regular.ttf');
+}
+
 /*---------------------------- End fonts --------------------------------------*/
 
 /**/
