@@ -1,3 +1,4 @@
+
 .slideshow{
   width: 100%;
   margin-top: 40px;
@@ -71,7 +72,7 @@
 }
 
 #item1 .event{
-  border-bottom: 2px solid #0000ff;
+  border-bottom: 2px solid #A1BBD0;
 }
 
 #item1 p{
@@ -83,6 +84,9 @@
 
 #item2{
   width: 40%;
+  background-color: #f4e7d7;
+  border: 1px solid #1E1E1E;
+  word-wrap: break-word;
 }
 
 #item2 #direction_title{
@@ -92,4 +96,17 @@
   font-weight: bold;
   font-size: 2.2em;
   text-decoration: underline;
+  color: #3f4324;
+}
+
+#item2 p{
+  font-size: 1.4em;
+  margin-left: 12%;
+  color: #3f4324;
+}
+
+#item2 a{
+  font-size: 1.4em;
+  margin-left: 18%;
+  color: #3f4324;
 }

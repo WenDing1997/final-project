@@ -48,7 +48,8 @@
       <div class="flex_item" id="item2">
         <div id="direction_title">DIRECTIONS</div>
         <p>384 Champlin Road</br>Groton, NY 13073</br></p>
-        <p>(607) 591-6148</p>
+        <p>Tel: (607) 591-6148</p>
+        <a href="directions.php">Find us on the map!</a>
       </div>
     </div>
 
