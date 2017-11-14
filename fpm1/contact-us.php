@@ -5,6 +5,9 @@
     include "includes/head.php";
   ?>
 
+  <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="scripts/contact-form.js"></script>
+
 <body>
   <!-- Begin main_container for all body elements -->
   <div id="main_container">
@@ -42,24 +45,36 @@
       </div>
       <div>
           <input type="text" id="name" name="user_name" required/>
+          <span class="error hidden" id="nameError">
+            No name provided.
+          </span>
       </div>
       <div>
           <label for="mail">Email:</label>
       </div>
       <div>
           <input type="email" id="email" name="user_mail" required/>
+          <span class="error hidden" id="emailError">
+            No or invalid email provided.
+          </span>
       </div>
       <div>
           <label for="heard">Subject:</label>
       </div>
       <div>
           <input type="text" id="subject" name="user_subject" required/>
+          <span class="error hidden" id="subjectError">
+            No subject provided.
+          </span>
       </div>
       <div>
           <label for="msg">Message:</label>
       </div>
       <div>
           <textarea id="msg" name="user_message"></textarea>
+          <span class="error hidden" id="msgError">
+            No message provided.
+          </span>
       </div>
       <div class="button">
         <button type="submit">Submit</button>

@@ -22,11 +22,11 @@
   float: left;
   margin: auto;
   /*border: 1px solid red;*/
-  width: 49%;
+  width: 48%;
 }
 
 #contact-form{
-  width: 49%;
+  width: 48%;
   /*border: 1px red solid;*/
   float: right;
 }
@@ -53,11 +53,23 @@ label {
 }
 
 textarea{
-  width: 60%;
+  width: 50%;
   height: 150px;
 }
 
 .button{
   /*padding-left: 23%;*/
   /*float: left;*/
+}
+
+.error {
+  display: inline-block;
+  background-color: white;
+  color: red;
+  padding: 1px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
 }
