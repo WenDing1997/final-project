@@ -6,6 +6,7 @@
     include "includes/head.php";
   ?>
   <link rel="stylesheet" type="text/css" href="styles/employment.css" media="all"/>
+</head>
 
 <body>
   <!-- Begin main_container for all body elements -->
