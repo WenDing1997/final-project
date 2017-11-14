@@ -26,11 +26,11 @@
   <div id="main_text">
   <p>Looking for a fun and rewarding job? Join the Summerhill Brewing team and become a member of a close-knit, enthusiastic community that desires to produce the finest beer in a sustainable way!</p>
   <img src="images/employment.jpg" />
-  <p>Please fill out the following form and send your resume to summerhill.brewing@gmail.com.<p>
+  <p>Please fill out the following form and send your resume to summerhill.brewing@gmail.com.</p>
   </div>
 
   <div id="form_div">
-  <form id="contactForm" action="employment-form-submitted.php" method="post" novalidate>
+  <form id="employmentForm" action="employment-form-submitted.php" method="post" novalidate>
     <div>
         <label for="name">Name:</label>
         <input type="text" id="name" name="user_name" required/>

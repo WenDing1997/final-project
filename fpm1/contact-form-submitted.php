@@ -19,7 +19,7 @@
 <!-- NEW CODE GOES HERE -->
 <div id="tagline_div">
   <div id="tagline">
-    <h2>Thank you! We will get back to you shortly.</h2>
+    <h2>Thank you for your message! You will hear from us shortly.</h2>
   </div>
 </div>
 
