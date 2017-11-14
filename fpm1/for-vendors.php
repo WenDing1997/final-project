@@ -1,10 +1,14 @@
 <!-- Being hours & events html -->
-<html>
 
   <!-- Include html header -->
   <?php
     include "includes/head.php";
   ?>
+  <link rel="stylesheet"
+      type="text/css"
+      href="styles/for-vendors.css"
+      media="all">
+</head>
 
 <body>
   <!-- Begin main_container for all body elements -->
@@ -16,8 +20,8 @@
   ?>
 
 <!-- NEW CODE GOES HERE -->
-<div id="tagline_3_div">
-  <div id="tagline_3">
+<div id="tagline_div">
+  <div id="tagline">
     <h2>Interested in being a vendor? Fill in the form below!</h2>
   </div>
 </div>

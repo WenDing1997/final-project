@@ -1,20 +1,31 @@
+
+
 #tagline_div_3{
   width: 100%;
 }
 
+
 #tagline_3{
   margin: 0px auto;
-  font-family: lobster, cursive;
+  font-family: 'cabin-condensed';
   font-size: 1.5em;
   width: 70%;
   border-bottom: 0.5px solid #a1bbd0;
 }
 
-#vendorform {
+#vendorForm {
   margin-left: 17%;
   float:left;
   margin-top:2%;
 }
+
+#vendorForm {
+  margin-left: 17%;
+  float:left;
+  margin-top:2%;
+}
+
+
 
 .qsection {
   margin-top: 10%;
@@ -29,6 +40,7 @@
     width:30%;
     margin-top:3%;
     margin-bottom:5%;
+    border-radius:8px;
 }
 
 .question {

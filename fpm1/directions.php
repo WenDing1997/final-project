@@ -1,5 +1,4 @@
 <!-- Being hours & events html -->
-<html>
 
   <!-- Include html header -->
   <?php
@@ -7,6 +6,7 @@
   ?>
   <link rel="stylesheet" type="text/css" href="styles/directions.css" media="all"/>
 
+</head>
 
 
 <body>

@@ -1,10 +1,14 @@
 <!-- Being hours & events html -->
-<html>
 
   <!-- Include html header -->
   <?php
     include "includes/head.php";
   ?>
+  <link rel="stylesheet"
+        type="text/css"
+        href="styles/photos.css"
+        media="all">
+</head>
 
 <body>
   <!-- Begin main_container for all body elements -->
@@ -16,8 +20,59 @@
   ?>
 
 <!-- NEW CODE GOES HERE -->
+  <div id="tagline_div">
+    <div id="tagline">
+      <h2>Photos of our brewery</h2>
+    </div>
+  </div>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in urna id velit placerat viverra. Aenean scelerisque rutrum dolor. Suspendisse porta, lacus ut ullamcorper tempor, lacus libero aliquam augue, sit amet egestas ex arcu id metus. Fusce lorem metus, mattis tristique lectus eget, sollicitudin congue nibh. Aliquam sed felis lacus. Quisque vulputate porttitor mi et gravida. Ut vulputate eros vitae bibendum laoreet. Cras faucibus egestas erat venenatis interdum. Sed quis mi molestie, venenatis ligula vitae, malesuada nisi. Morbi vestibulum a risus sit amet ullamcorper. Nunc metus erat, dignissim eget feugiat vel, vehicula ut diam. Integer feugiat leo magna, malesuada varius arcu rutrum non. Etiam quis scelerisque risus. Donec facilisis erat eu sem vulputate interdum. Fusce consequat ante eros, in porta nulla fermentum dignissim.</p>
+  <div id="photo-div">
+    <div class="photo-div-photo">
+      <img src="images/photos_page/15.jpg">
+    </div>
+    <div class="photo-div-photo">
+      <img src="images/photos_page/2.jpg">
+    </div>
+    <div class="photo-div-photo">
+      <img src="images/photos_page/3.jpg">
+    </div>
+    <div class="photo-div-photo">
+      <img src="images/photos_page/4.jpg">
+    </div>
+    <div class="photo-div-photo">
+      <img src="images/photos_page/5.jpg">
+    </div>
+    <div class="photo-div-photo">
+      <img src="images/photos_page/6.jpg">
+    </div>
+    <div class="photo-div-photo">
+      <img src="images/photos_page/7.jpg">
+    </div>
+    <div class="photo-div-photo">
+      <img src="images/photos_page/8.jpg">
+    </div>
+    <div class="photo-div-photo">
+      <img src="images/photos_page/9.jpg">
+    </div>
+    <div class="photo-div-photo">
+      <img src="images/photos_page/10.jpg">
+    </div>
+    <div class="photo-div-photo">
+      <img src="images/photos_page/11.jpg">
+    </div>
+    <div class="photo-div-photo">
+      <img src="images/photos_page/12.jpg">
+    </div>
+    <div class="photo-div-photo">
+      <img src="images/photos_page/13.jpg">
+    </div>
+    <div class="photo-div-photo">
+      <img src="images/photos_page/14.jpg">
+    </div>
+    <div class="photo-div-photo">
+      <img src="images/photos_page/16.jpg">
+    </div>
+  </div>
 
 <!-- NEW CODE ENDS HERE -->
 

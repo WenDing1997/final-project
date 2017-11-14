@@ -1,15 +1,18 @@
+<<<<<<< HEAD
 #tagline_div_5{
   width: 100%;
 }
 
 #tagline_5{
   margin: 0px auto;
-  font-family: lobster, cursive;
+  font-family: 'cabin-condensed';
   font-size: 1.5em;
   width: 70%;
   border-bottom: 0.5px solid #a1bbd0;
 }
 
+=======
+>>>>>>> 8239513c9e8b4d507fa8df266a45f99100f4489c
 #storeflex-wrapper{
   display:flex;
   flex-direction:column;
@@ -31,9 +34,24 @@
   font-size:30px;
 }
 
-#storeflex-wrapper p {
+#storeflex-wrapper .price {
   font-size:18px;
+  margin-top:2%;
+  margin-bottom: 0%;
 }
+
+.buybutton {
+  font-size:20px;
+  text-decoration: underline;
+  text-align: center;
+  background-color: #87CEFA;
+  display: inline-block;
+  padding:8px;
+  border-radius:5px;
+  border:2px solid #3396FF;
+}
+
+
 
 @media screen and (max-width: 700px) {
   #storeflex-wrapper img{

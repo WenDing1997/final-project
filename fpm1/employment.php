@@ -1,5 +1,4 @@
 <!-- Being hours & events html -->
-<html>
 
   <!-- Include html header -->
   <?php
