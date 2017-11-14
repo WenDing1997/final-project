@@ -62,9 +62,13 @@
       <input type="checkbox" name="job" value="General Manager"> General Manager <br>
       <input type="checkbox" name="job" value="Quality Manager"> Quality Manager <br>
       <input type="checkbox" name="job" value="Brewery Sales Representative"> Brewery Sales Representative <br>
-      <input type="checkbox" name="job" value="Server"> Server <br>
-      <input type="checkbox" name="job" value="Dish Washer"> Dish Washer <br>
+      <input type="checkbox" name="job" value="Social Media Manager"> Social Media Manager <br>
+      <input type="checkbox" name="job" value="Graphics Designer"> Graphics Designer <br>
+      <input type="checkbox" name="job" value="Commnuications Manager"> Commnuications Manager <br>
+      <input type="checkbox" name="job" value="Marketing Manager"> Marketing Manager <br>
       <input type="checkbox" name="job" value="Website Coordinator"> Website Coordinator <br>
+      <input type="checkbox" name="job" value="Server"> Server <br>
+      <input type="checkbox" name="job" value="Host"> Host <br>
     </div>
     </div>
     <div class="button">
