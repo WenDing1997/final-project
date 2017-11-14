@@ -44,14 +44,14 @@
         </p>
         <div id="column-div">
           <div class="column">
-            <a href="http://www.clarkhollowhops.com/index.html">Clark Hollow Hops</a><p> - Fabius, NY</p><br/>
-            <a href="https://www.homerhops.com">Homer Hops Operation</a><p> - Homer, NY</p><br/>
-            <a href="http://www.eastcoastmalts.com">East Coast Malts</a><p> - Dryden, NY</p><br/>
+            <a href="http://www.clarkhollowhops.com/index.html" target="_blank">Clark Hollow Hops</a><p> - Fabius, NY</p><br/>
+            <a href="https://www.homerhops.com" target="_blank" >Homer Hops Operation</a><p> - Homer, NY</p><br/>
+            <a href="http://www.eastcoastmalts.com" target="_blank">East Coast Malts</a><p> - Dryden, NY</p><br/>
           </div>
           <div class="column">
-            <a href="https://hort.cals.cornell.edu/about/facilities/cornell-orchards">Cornell Orchards</a><p> - Ithaca, NY</p><br/>
-            <a href="http://www.grisamorefarms.com">Grisamore Farms</a><p> - Locke, NY</p><br/>
-            <a href="https://www.hollenbeckscidermill.com">Hollenbecks</a><p> - Virgil, NY</p><br/>
+            <a href="https://hort.cals.cornell.edu/about/facilities/cornell-orchards" target="_blank">Cornell Orchards</a><p> - Ithaca, NY</p><br/>
+            <a href="http://www.grisamorefarms.com" target="_blank">Grisamore Farms</a><p> - Locke, NY</p><br/>
+            <a href="https://www.hollenbeckscidermill.com" target="_blank">Hollenbecks</a><p> - Virgil, NY</p><br/>
           </div>
         </div>
       </div>
