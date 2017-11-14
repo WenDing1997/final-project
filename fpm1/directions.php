@@ -25,21 +25,26 @@
   </div>
 </div>
 
+<div id="main_box">
+  <div id="main_text">
+    <p>Summerhill Brewing<p>
+    <p>384 Champlin Road<p>
+    <p>Groton, NY 13073<p>
+    <p>GPS coordinates: (latitude) 42.6364, (longitutude) -76.2942<p>
+  </div>
+</div>
+
 <div id="main_div">
   <div id="map"></div>
   <script src="scripts/map.js" type="text/javascript"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwTYp1sMRX-vkBjGfPQbTDpDyyEojZStA&callback=myMap"></script>
 
-  <div id="main_box">
-    <div id="main_text">
-      <p>Summerhill Brewing<p>
-      <p>384 Champlin Road<p>
-      <p>Groton, NY 13073<p>
-    </div>
+<div id="map2">
+  <div id="map2_text">
+    <p>We also drew a map for you!<p>
   </div>
-
-
-
+  <img src="images/map.jpg" />
+</div>
 </div>
 <!-- NEW CODE ENDS HERE -->
 
