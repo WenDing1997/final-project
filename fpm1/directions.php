@@ -30,7 +30,7 @@
     <p>Summerhill Brewing</p>
     <p>384 Champlin Road</p>
     <p>Groton, NY 13073</p>
-    <p>GPS coordinates: (latitude) 42.6364, (longitutude) -76.2942</p>
+    <p>GPS coordinates: (latitude) 42.6364, (longitude) -76.2942</p>
   </div>
 </div>
 
