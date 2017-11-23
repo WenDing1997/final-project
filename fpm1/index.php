@@ -4,14 +4,18 @@
   <?php
     include "includes/head.php";
   ?>
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
   <link rel="stylesheet"
         type="text/css"
         href="styles/index.css"
         media="all">
+
 </head>
 
 <body>
   <!-- Begin main_container for all body elements -->
+
   <div id="main_container">
 
   <!-- include header section, navigation -->
@@ -25,8 +29,20 @@
       <img class="slide" src="images/Bar_Images/bottles.JPG" alt="bottles" />
     </div> -->
 
-    <div class="slideshow_img">
-      <img class="slide" src="images/Bar_Images/flight.JPG" alt="bottles" />
+    <div class="slideshow_img w3-content w3-section">
+      <img class="slide w3-animate-left" src="images/Bar_Images/flight.JPG" alt="flight" />
+      <img class="slide w3-animate-left" src="images/Bar_Images/menu.JPG" alt="menu" />
+      <img class="slide w3-animate-left" src="images/Bar_Images/music.JPG" alt="full bar" />
+      <img class="slide w3-animate-left" src="images/Bar_Images/bottles.JPG" alt="bottles" />
+      <img class="slide w3-animate-left" src="images/Bar_Images/shop.JPG" alt="bar talk" />
+      <ul id="slideshow_btns">
+        <li><button class="btn" id="btn_1"></button></li>
+        <li><button class="btn" id="btn_2"></button></li>
+        <li><button class="btn" id="btn_3"></button></li>
+        <li><button class="btn" id="btn_4"></button></li>
+        <li><button class="btn" id="btn_5"></button></li>
+      </ul>
+
     </div>
   </div>
 
@@ -47,9 +63,13 @@
 
       <div class="flex_item" id="item2">
         <div id="direction_title">DIRECTIONS</div>
-        <p>384 Champlin Road</br>Groton, NY 13073</br></p>
-        <p>Tel: (607) 591-6148</p>
-        <a href="directions.php">Find us on the map!</a>
+        <div id="address">
+          <div>
+            <p>384 Champlin Road<br>Groton, NY 13073<br></p>
+            <p>Tel: (607) 591-6148</p>
+            <a href="directions.php"><button id="map_link">Find us on a map!</button></a>
+          </div>
+        </div>
       </div>
     </div>
 

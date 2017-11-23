@@ -21,7 +21,7 @@
 <!-- NEW CODE GOES HERE -->
 <div id="tagline_div">
   <div id="tagline">
-    <h2>We are easy to find!</h2>
+    <h2>We're easy to find!</h2>
   </div>
 </div>
 

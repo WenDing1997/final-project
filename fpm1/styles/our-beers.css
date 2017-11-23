@@ -1,4 +1,8 @@
 /* Begin our beers styling */
+#tagline{
+  font-family: "lobster";
+}
+
 #main_flex_wrapper{
   display: flex;
   flex-direction: column;

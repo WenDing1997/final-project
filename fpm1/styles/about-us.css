@@ -4,7 +4,7 @@
 
 #tagline_4{
   margin: 0px auto;
-  font-family: 'cabin-condensed';
+  font-family: 'lobster';
   font-size: 1.5em;
   width: 70%;
   border-bottom: 1px solid #a1bbd0;
@@ -14,7 +14,7 @@
 .aboutparagraph {
   margin-left: 15%;
   margin-right:15%;
-  font-size:18px;
+  font-size:1.3em;
 }
 
 #aboutuspic {

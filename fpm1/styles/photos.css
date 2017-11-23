@@ -1,3 +1,7 @@
+#tagline{
+  font-family: "lobster";
+}
+
 #photo-div {
   display: flex;
   flex-direction: row;

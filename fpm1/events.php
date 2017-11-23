@@ -24,19 +24,19 @@
 <!-- NEW CODE GOES HERE -->
   <div id="tagline_div">
     <div id="tagline">
-      <h2>Upcoming News and Events</h2>
+      <h2>Upcoming Hours and Events</h2>
     </div>
   </div>
 
   <div class="flex-container">
     <div class="sub-div">
-      <h3>Special Hours</h3>
+      <h3>Upcoming Tasting Room Hours</h3>
       <h4>November 22nd hours 2pm to 8pm</h4>
       <h4>November 24th hours 1pm to 4pm</h4>
       <h4>November 25th hours TBD</h4>
     </div>
 ​    <div class="sub-div">
-      <h3>Events</h3>
+      <h3>Upcoming Events</h3>
       <h4>December 2nd 10am to 10pm:  BBQ Christmas in Moravia</h4>
       <h4>December 3rd 3pm to 6pm: "Cards and a Cold One" with Jess B. from "Card-iology"</h4>
     </div>
