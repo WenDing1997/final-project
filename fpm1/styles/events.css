@@ -1,10 +1,14 @@
 /* Begin events styling */
 #tagline{
-  font-family: "lobster";
+  font-family: "lobster", cursive;
 }
 
 .italic{
   font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
 }
 
 .flex-container {
@@ -18,8 +22,25 @@
 
 .sub-div {
   font-style: normal;
-  border-bottom: solid 0.5px #f4e7d7;
+  border-bottom: 8px solid #f4e7d7;
   width: 100%;
+}
+
+.date-and-time-info{
+  margin-bottom: 30px;
+}
+
+.date{
+  font-size: 140%;
+}
+
+.time{
+  font-size: 125%;
+  color: dimgray;
+}
+
+.events-title{
+  font-size: 140%;
 }
 
 #note{
@@ -29,13 +50,25 @@
   margin: 20px auto;
   padding: 0px 20px 0px 5px;
   color: #3F4234;
+  transition: all .5s ease;
 }
 
 #note p{
-  font-size: 1em;
+  font-size: 100%;
   margin-left: 15px;
   color: #3F4234;
+  background-color: white;
+}
 
+#note:hover{
+  transform: scale(1.2);
+}
+
+
+h2{
+  color: #3F4234;
+  margin-bottom: 30px;
+  font-size: 180%;
 }
 
 iframe {
@@ -43,14 +76,19 @@ iframe {
   height: 500px;
 }
 
-h3 {
-  font-size: 20px;
-  font-weight: 600;
+#past-events-title{
+  width: 100%;
+  margin-top: 30px;
+  border-bottom: 8px solid #f4e7d7;
+  cursor: pointer;
 }
 
-p {
-  font-size: 1.2em;
-  font-weight: 300;
+#past-events-container{
+  display:none;
+}
+
+.rt{
+  display: none;
 }
 
 /*@media screen and (max-width: 700px) {

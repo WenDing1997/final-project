@@ -22,7 +22,7 @@
 <!-- NEW CODE GOES HERE -->
   <div id="tagline_div">
     <div id="tagline">
-      <h2>Photos of our brewery</h2>
+      <h2>Check out some of our photos!</h2>
     </div>
   </div>
 

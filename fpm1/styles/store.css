@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 #tagline{
   font-family: "lobster";
 }
 
-#tagline_div_5{
+/*#tagline_div_5{
   width: 100%;
 }
 
@@ -13,52 +12,137 @@
   font-size: 1.5em;
   width: 70%;
   border-bottom: 0.5px solid #a1bbd0;
+}*/
+
+a{
+  text-decoration: none;
 }
 
-=======
->>>>>>> 8239513c9e8b4d507fa8df266a45f99100f4489c
-#storeflex-wrapper{
-  display:flex;
-  flex-direction:column;
+a:hover{
+  color: inherit;
 }
 
-#storeflex-wrapper div {
+#merchandise-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  width: 70%;
+}
+
+.item-div{
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.item-img-div{
+  border: solid 1px #1E1E1E;
+  border-radius: 8px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
-  margin-left: 17%;
-  margin-right:17%;
-  border-bottom: 0.5px solid #a1bbd0;
+  height: 260px;
+  transition: all .3s ease;
+  cursor: pointer;
 }
 
-#storeflex-wrapper img{
-  width:40%;
-  border-radius:8px;
+.item-img-div:hover .buy_btn{
+  display: inline;
 }
 
-.bold {
-  font-size:30px;
+.buy_btn{
+  font-size: 110%;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: white;
+  background-color: red;
+  padding: 15px 70px 15px 70px;
+  line-height: 16em;
+  cursor: pointer;
+  display: none;
+  /*border: 1px solid firebrick;*/
 }
 
-#storeflex-wrapper .price {
-  font-size:18px;
-  margin-top:2%;
-  margin-bottom: 0%;
+.buy_btn:hover{
+  background-color: firebrick;
 }
 
-.buybutton {
-  font-size:20px;
-  text-decoration: underline;
-  text-align: center;
-  background-color: #87CEFA;
-  display: inline-block;
-  padding:8px;
-  border-radius:5px;
-  border:2px solid #3396FF;
+#item-1{
+  background-image: url("../images/Shop_Images/tshirt_black.JPG");
 }
 
+#item-1:hover{
+  background-image: url("../images/Shop_Images/tshirt_black_dark.JPG");
+  transition: .2s ease;
+}
 
+#item-2{
+  background-image: url("../images/Shop_Images/tshirt_brown.JPG");
+}
+
+#item-2:hover{
+  background-image: url("../images/Shop_Images/tshirt_brown_dark.JPG");
+}
+
+#item-3{
+  background-image: url("../images/Shop_Images/hoodie.JPG");
+}
+
+#item-3:hover{
+  background-image: url("../images/Shop_Images/hoodie_dark.JPG");
+}
+
+#item-4{
+  background-image: url("../images/Shop_Images/mugs.JPG");
+}
+
+#item-4:hover{
+  background-image: url("../images/Shop_Images/mugs_dark.JPG");
+}
+
+#item-5{
+  background-image: url("../images/Shop_Images/coaster.JPG");
+}
+
+#item-5:hover{
+  background-image: url("../images/Shop_Images/coaster_dark.JPG");
+}
+
+#item-6{
+  background-image: url("../images/Shop_Images/giftbasket.JPG");
+}
+
+#item-6:hover{
+  background-image: url("../images/Shop_Images/giftbasket_dark.JPG");
+}
+
+.item-name{
+  font-size: 130%;
+  padding-top: 10px;
+}
+
+.item-price{
+  font-size: 120%;
+  color: gray;
+}
 
 @media screen and (max-width: 700px) {
-  #storeflex-wrapper img{
-    width:100%;
+
+  #tagline{
+    width: 85%;
   }
+
+  #merchandise-div{
+    width: 90%;
+  }
+
+  .item-div{
+    width:45%;
+    padding: 10px;
+  }
+
 }

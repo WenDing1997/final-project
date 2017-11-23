@@ -121,10 +121,9 @@
   text-align: right;
 }
 
-
 #item2 #direction_title{
   width: 100%;
-  padding: 15px 20px 0px 0px;
+  padding: 10px 0px 0px 0px;
   font-weight: bold;
   font-size: 2.2em;
   text-decoration: underline;
@@ -167,6 +166,10 @@
 #item2 button:hover{
   color: white;
   background-color: #006600;
+}
+
+#item2:hover{
+  background-image: url("../images/road-darkened.JPG");
 }
 
 /* Handle responsive CSS here */

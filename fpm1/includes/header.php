@@ -45,7 +45,7 @@
 
   <div id="responsive_menu_div">
     <button id="responsive_menu_btn">
-      <img id="navicon" src="images/navicon.PNG" alt="navicon"><p>MENU</p>
+      <img id="navicon" src="images/navicon.PNG" alt="navicon"><span>MENU</span>
     </button>
   </div>
 

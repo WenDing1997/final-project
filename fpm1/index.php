@@ -11,8 +11,8 @@
         href="styles/index.css"
         media="all">
 
-        <!-- Load slideshow script-->
-        <script src="scripts/slideshow.js" type="text/javascript"></script>
+    <!-- Load slideshow script-->
+    <script src="scripts/slideshow.js" type="text/javascript"></script>
 
 </head>
 

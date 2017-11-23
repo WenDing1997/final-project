@@ -46,7 +46,7 @@
 
 
 /* Handle responsive CSS here */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
 
   .sub_flex_wrapper{
     flex-direction: column;
