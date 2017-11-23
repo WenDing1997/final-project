@@ -4,12 +4,15 @@
   <?php
     include "includes/head.php";
   ?>
-  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <link rel="stylesheet"
         type="text/css"
         href="styles/index.css"
         media="all">
+
+        <!-- Load slideshow script-->
+        <script src="scripts/slideshow.js" type="text/javascript"></script>
 
 </head>
 
@@ -67,7 +70,7 @@
           <div>
             <p>384 Champlin Road<br>Groton, NY 13073<br></p>
             <p>Tel: (607) 591-6148</p>
-            <a href="directions.php"><button id="map_link">Find us on a map!</button></a>
+            <button id="map_link" onclick="location.href='directions.php'">Find us on a map!</button>
           </div>
         </div>
       </div>
