@@ -16,10 +16,11 @@
   <!-- Set encoding -->
   <meta charset="utf-8">
 
+  <!-- Source: https://cdn4.iconfinder.com/data/icons/beer-icons-set-cartoon-style-1/512/a60-512.png -->
   <!-- Set icon -->
   <link rel="icon"
-        type="images/jpg"
-        href="images/SHB_Logo.jpg">
+        type="images/png"
+        href="images/hops-icon.png">
 
   <!-- Set title -->
   <title>Summerhill Brewing</title>

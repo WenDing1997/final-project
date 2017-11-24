@@ -43,7 +43,9 @@
 
   <div class="flex-container">
     <div class="sub-div">
-      <h2>Upcoming Tasting Room Hours</h2>
+      <h2>Upcoming Tasting Room Hours
+        <span id="btn"><a href="directions.php">Get Directions<span id="arrow">&#8680;</span></a></span>
+      </h2>
       <p class="date-and-time-info">
         <span class="date">Wednesday, November 22nd</span><br>
         <span class="italic time">2pm - 8pm</span></p>

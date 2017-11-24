@@ -47,7 +47,7 @@
       <span class="buy_btn"><a href="https://www.paypal.com/us/home" target="_blank">BUY</a></span>
       <!-- <img src="images/photos_page/2.jpg"> -->
     </div>
-    <span class="item-name">T-Shirt (Brown)</span><br>
+    <span class="item-name">Summerhill Logo T-Shirt</span><br>
     <span class="item-price">$14.00 - 18.00</span>
   </div>
 
