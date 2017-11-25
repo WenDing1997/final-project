@@ -8,6 +8,9 @@
       type="text/css"
       href="styles/for-vendors.css"
       media="all">
+
+      <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="scripts/for-vendors-form.js"></script>
 </head>
 
 <body>
@@ -26,20 +29,25 @@
   </div>
 </div>
 
-<form method="post" action="handlingform.php" id="vendorForm">
+<div id="formandpic">
+<div id="form">
+<form method="post" action="handlingform.php" id="vendorForm" novalidate>
 
         <div class="qsection">
           <div class="question">
             <label for="businessorg">Business/Company Name: </label>
           </div>
           <div class="answer">
-            <input name="businessorg" required>
+            <input name="businessorg" id="businessorg" required/>
+            <span class="error hidden" id="businessnameError">
+              No name provided.
+            </span>
           </div>
         </div>
 
         <div class="qsection">
           <div class="question">
-            <label for="address">Address: </label>
+            <label for="address">Address (Optional): </label>
           </div>
           <div class="answer">
             <textarea name="address"></textarea>
@@ -51,16 +59,23 @@
             <label for="contactname">Contact Name:</label>
           </div>
           <div class="answer">
-            <input name="contactname" required>
+            <input name="contactname" id="contactname" required/>
+            <span class="error hidden" id="contactnameError">
+              No name provided.
+            </span>
           </div>
         </div>
 
         <div class="qsection">
+        <!-- <div class="a"> -->
           <div class="question">
             <label for="lastName">Contact Email: </label>
           </div>
           <div class="answer">
-            <input type="email" name="userEmail" required>
+            <input type="email" name="email" id="email" required/>
+            <span class="error hidden" id="emailError">
+              No or invalid email provided.
+            </span>
           </div>
         </div>
 
@@ -69,7 +84,10 @@
             <label for="telephone">Phone Number: </label>
           </div>
           <div class="answer">
-            <input name="telephone" required>
+            <input name="telephone" id="telephone" required/>
+            <span class="error hidden" id="numberError">
+              No number provided.
+            </span>
           </div>
         </div>
 
@@ -86,8 +104,11 @@
           <button id="submitbutton" type="submit" class="submit">Submit</button>
         </div>
     </form>
+</div>
+
 
     <img id="vendorcontactpic" src="images/vendorcontact.jpg" alt="vendorpicture"/>
+</div>
 <!-- NEW CODE ENDS HERE -->
 
 
