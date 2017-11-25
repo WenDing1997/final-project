@@ -242,16 +242,18 @@ footer{
 }
 
 #footer_content{
-  min-height: 200px;
+  /*min-height: 200px;*/
   background-color: #1E1E1E;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
 }
 
 #footer_text{
   width: 75%;
-  color: white;
+  color: #ffffff;
   /*border: 1px solid red;*/
 }
 
@@ -266,6 +268,14 @@ footer{
   padding-right: 20px;
 }
 
+#social-media-list{
+  list-style-type: none;
+}
+
+#social-media-list li{
+  display: inline-block;
+}
+
 #fb{
   max-width: 50px;
   margin: 0px 10px 0px 0px;
@@ -277,7 +287,32 @@ footer{
 }
 
 #in{
-  max-width: 45px;
+  max-width: 47px;
+}
+
+#footer_content_2{
+  min-height: 95px;
+  color: white;
+  background-color: #1E1E1E;
+}
+
+#footer_content_2_list{
+  list-style-type: none;
+  margin: 15px 15px 0px 0px;;
+  float: right;
+}
+
+#footer_content_2_list li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#footer_content_2_list li a{
+  text-decoration: none;
+}
+
+#footer_content_2_list li a:hover{
+  color: #ffc173;
 }
 
 /* Handle responsive CSS here */
@@ -294,8 +329,22 @@ footer{
   /*border: solid 1px black;*/
 }
 
-#image_wrapper{
+#footer_content{
+  flex-direction: column;
+  padding: 0px;
+}
+
+#footer_text{
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+#img_wrapper{
   display: block;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+  border-top: 1px solid lightgray;
 }
 
 nav{
@@ -313,6 +362,25 @@ nav li{
 
 #responsive_menu_btn{
   display: inline;
+}
+
+#social-media-list{
+  padding: 0px;
+  margin-right: 33px;
+}
+
+#social-media-list li{
+  display: inline-block;
+}
+
+#fb, #tw{
+  margin: 0px 20px 8px 0px;
+  /*width: 30px;*/
+}
+
+#in{
+  padding-bottom: 7.5px;
+  width: 46px;
 }
 
 }

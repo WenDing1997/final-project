@@ -48,7 +48,7 @@
       <!-- <img src="images/photos_page/2.jpg"> -->
     </div>
     <span class="item-name">Summerhill Logo T-Shirt</span><br>
-    <span class="item-price">$14.00 - 18.00</span>
+    <span class="item-price">$14.00 - $18.00</span>
   </div>
 
   <div class="item-div">
