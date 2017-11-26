@@ -38,7 +38,7 @@
             <label for="businessorg">Business/Company Name: </label>
           </div>
           <div class="answer">
-            <input name="businessorg" id="businessorg" required/>
+            <input name="businessorg" id="businessorg">
             <span class="error hidden" id="businessnameError">
               No name provided.
             </span>
@@ -50,7 +50,7 @@
             <label for="contactname">Contact Name:</label>
           </div>
           <div class="answer">
-            <input name="contactname" id="contactname" required/>
+            <input name="contactname" id="contactname">
             <span class="error hidden" id="contactnameError">
               No name provided.
             </span>
@@ -63,7 +63,7 @@
             <label for="lastName">Contact Email: </label>
           </div>
           <div class="answer">
-            <input type="email" name="email" id="email" required/>
+            <input type="email" name="email" id="email">
             <span class="error hidden" id="emailError">
               No or invalid email provided.
             </span>
@@ -75,7 +75,7 @@
             <label for="telephone">Phone Number: </label>
           </div>
           <div class="answer">
-            <input name="telephone" id="telephone" required/>
+            <input name="telephone" id="telephone">
             <span class="error hidden" id="numberError">
               No number provided.
             </span>

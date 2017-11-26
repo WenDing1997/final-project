@@ -3,22 +3,25 @@ $(document).ready(function() {
   $("#contactForm").on("submit", function() {
     // console.log(1);
     var IsValid = true;
+    var nameEmpty = document.getElementById("name").value;
     var nameIsValid = $("#name").prop("validity").valid;
-    if(nameIsValid) {
+    if(nameEmpty.length > 0 && nameIsValid) {
       $("#nameError").hide();
     } else {
       $("#nameError").show();
       IsValid = false;
     }
+    var emailEmpty = document.getElementById("email").value;
     var emailIsValid = $("#email").prop("validity").valid;
-    if(emailIsValid) {
+    if(emailEmpty.length > 0 && emailIsValid) {
       $("#emailError").hide();
     } else {
       $("#emailError").show();
       IsValid = false;
     }
+    var subjectEmpty = document.getElementById("subject").value;
     var subjectIsValid = $("#subject").prop("validity").valid;
-    if(subjectIsValid) {
+    if(subjectEmpty.length > 0 && subjectIsValid) {
       $("#subjectError").hide();
     } else {
       $("#subjectError").show();

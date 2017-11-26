@@ -46,7 +46,7 @@
           <label for="name">Name:</label>
       </div>
       <div>
-          <input type="text" id="name" name="user_name" required/>
+          <input type="text" id="name" name="user_name">
           <span class="error hidden" id="nameError">
             No name provided.
           </span>
@@ -55,7 +55,7 @@
           <label for="mail">Email:</label>
       </div>
       <div>
-          <input type="email" id="email" name="user_mail" required/>
+          <input type="email" id="email" name="user_mail">
           <span class="error hidden" id="emailError">
             No or invalid email provided.
           </span>
@@ -64,7 +64,7 @@
           <label for="heard">Subject:</label>
       </div>
       <div>
-          <input type="text" id="subject" name="user_subject" required/>
+          <input type="text" id="subject" name="user_subject">
           <span class="error hidden" id="subjectError">
             No subject provided.
           </span>
