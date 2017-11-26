@@ -28,7 +28,7 @@
       <li><a href="photos.php">PHOTOS</a></li>
       <li><a href="community.php">COMMUNITY</a></li>
       <li><a href="store.php">STORE</a></li>
-      <li><a href="about-us.php">ABOUT US</a></li>
+      <li><a href="about-us.php">OUR STORY</a></li>
       <li class="sublist">
         <a class="dropbtn" href="directions.php">CONTACT</a>
         <div class="sublist_content">
@@ -60,7 +60,7 @@
       <li><a href="photos.php">PHOTOS</a></li>
       <li><a href="community.php">COMMUNITY</a></li>
       <li><a href="store.php">STORE</a></li>
-      <li><a href="about-us.php">ABOUT US</a></li>
+      <li><a href="about-us.php">OUR STORY</a></li>
       <li id="contact"><a href="javascript:void(0)">CONTACT&emsp;<span class="cda">&#9660;</span><span class="cra">&#9654;</span></a></li>
       <li class="hidden_contact"><a href="directions.php">Directions</a></li>
       <li class="hidden_contact"><a href="for-vendors.php">For Vendors</a></li>
