@@ -103,19 +103,18 @@
         <div>
           <button id="submitbutton" type="submit" class="submit">Submit</button>
         </div>
-    </form>
+        </form>
+</div>
+<img id="vendorcontactpic" src="images/vendorcontact.jpg" alt="vendorpicture"/>
 </div>
 
-
-    <img id="vendorcontactpic" src="images/vendorcontact.jpg" alt="vendorpicture"/>
-</div>
 <!-- NEW CODE ENDS HERE -->
-
 
   <!-- include footer  section -->
   <?php
     include "includes/footer.php";
   ?>
+
 
   </div> <!-- end main_container div -->
 

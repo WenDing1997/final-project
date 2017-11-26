@@ -74,7 +74,7 @@
 <div id="main_div">
   <div id="map"></div>
   <script src="scripts/map.js" type="text/javascript"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwTYp1sMRX-vkBjGfPQbTDpDyyEojZStA&callback=myMap"></script>
+  <script id="googlemap" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwTYp1sMRX-vkBjGfPQbTDpDyyEojZStA&callback=myMap"></script>
 
 <div id="directions-info-flexbox">
 
