@@ -37,28 +37,28 @@
   <form id="employmentForm" action="employment-form-submitted.php" method="post" novalidate>
     <div>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name" required/>
+        <input type="text" id="name" name="user_name1" required/>
         <span class="error hidden" id="nameError">
             No name provided.
         </span>
     </div>
     <div>
         <label for="mail">Email:</label>
-        <input type="email" id="email" name="user_mail" required/>
+        <input type="email" id="email" name="user_mail1" required/>
         <span class="error hidden" id="emailError">
             No or invalid email provided.
         </span>
     </div>
     <div>
         <label for="heard">How did you hear about us?</label>
-        <input type="text" id="heard" name="user_heard" required/>
+        <input type="text" id="heard" name="user_heard1" required/>
         <span class="error hidden" id="heardError">
             No answer provided.
         </span>
     </div>
     <div>
         <label for="msg">Why do you want to join Summerhill Brewing?</label>
-        <textarea id="msg" name="user_message"></textarea>
+        <textarea id="msg" name="user_message1"></textarea>
         <span class="error hidden" id="msgError">
           No answer provided.
         </span>
@@ -66,16 +66,16 @@
     <div id="checkbox">
       <label id="checkbox_label">Please select all postions that you are applying for.</label>
     <div id="checkbox_options">
-      <input type="checkbox" name="job" value="General Manager"> General Manager <br>
-      <input type="checkbox" name="job" value="Quality Manager"> Quality Manager <br>
-      <input type="checkbox" name="job" value="Brewery Sales Representative"> Brewery Sales Representative <br>
-      <input type="checkbox" name="job" value="Social Media Manager"> Social Media Manager <br>
-      <input type="checkbox" name="job" value="Graphics Designer"> Graphics Designer <br>
-      <input type="checkbox" name="job" value="Commnuications Manager"> Commnuications Manager <br>
-      <input type="checkbox" name="job" value="Marketing Manager"> Marketing Manager <br>
-      <input type="checkbox" name="job" value="Website Coordinator"> Website Coordinator <br>
-      <input type="checkbox" name="job" value="Server"> Server <br>
-      <input type="checkbox" name="job" value="Host"> Host
+      <input type="checkbox" name="job[]" value="General Manager"> General Manager <br>
+      <input type="checkbox" name="job[]" value="Quality Manager"> Quality Manager <br>
+      <input type="checkbox" name="job[]" value="Brewery Sales Representative"> Brewery Sales Representative <br>
+      <input type="checkbox" name="job[]" value="Social Media Manager"> Social Media Manager <br>
+      <input type="checkbox" name="job[]" value="Graphics Designer"> Graphics Designer <br>
+      <input type="checkbox" name="job[]" value="Commnuications Manager"> Commnuications Manager <br>
+      <input type="checkbox" name="job[]" value="Marketing Manager"> Marketing Manager <br>
+      <input type="checkbox" name="job[]" value="Website Coordinator"> Website Coordinator <br>
+      <input type="checkbox" name="job[]" value="Server"> Server <br>
+      <input type="checkbox" name="job[]" value="Host"> Host
       <span class="error hidden" id="jobError">
         Nothing selected.
       </span>

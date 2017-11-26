@@ -1,9 +1,25 @@
+<?php
+$businessorg = $_POST['businessorg'];
+$address = $_POST['address'];
+$contactname = $_POST['contactname'];
+$email = $_POST['email'];
+$telephone = $_POST['telephone'];
+$addq = $_POST['addq'];
+
+$data = $businessorg.",".$address.",".$contactname.",".$email.",".$telephone.",".$addq;
+
+$file = "vendorformdata.csv";
+
+file_put_contents($file, $data . PHP_EOL, FILE_APPEND);
+?>
+
 <!-- Being hours & events html -->
 
   <!-- Include html header -->
   <?php
     include "includes/head.php";
   ?>
+</head>
 
 <body>
   <!-- Begin main_container for all body elements -->

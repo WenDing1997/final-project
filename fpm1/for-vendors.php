@@ -47,15 +47,6 @@
 
         <div class="qsection">
           <div class="question">
-            <label for="address">Address (Optional): </label>
-          </div>
-          <div class="answer">
-            <textarea name="address"></textarea>
-          </div>
-        </div>
-
-        <div class="qsection">
-          <div class="question">
             <label for="contactname">Contact Name:</label>
           </div>
           <div class="answer">
@@ -93,7 +84,16 @@
 
         <div class="qsection">
           <div class="question">
-            <label for="addq">Additional Inquiries: </label>
+            <label for="address">Address (optional): </label>
+          </div>
+          <div class="answer">
+            <textarea name="address"></textarea>
+          </div>
+        </div>
+
+        <div class="qsection">
+          <div class="question">
+            <label for="addq">Additional Inquiries (optional): </label>
           </div>
           <div class="answer">
             <textarea name="addq"></textarea>
