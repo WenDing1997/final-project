@@ -37,7 +37,7 @@
 
     <div id="footer_content_2">
       <ul id="footer_content_2_list">
-        <li><a href="#!">Admin</a></li>
+        <li><a href="admin-login.php">Admin</a></li>
         <li><a href="contact-us.php">Contact Us</a></li>
       </ul>
     </div>

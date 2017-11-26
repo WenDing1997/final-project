@@ -1,0 +1,22 @@
+/**/
+
+#login-div{
+  min-height: 300px;
+  text-align: center;
+}
+
+#login-form{
+  width: 250px;
+  display: inline-block;
+  text-align: left;
+  background-color: lightblue;
+}
+
+#usrname, #pswrd{
+  float: right;
+}
+
+#btn{
+  padding: 6px 40px 6px 40px;
+  clear:both;
+}

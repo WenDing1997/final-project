@@ -149,39 +149,9 @@
   color: dimgray;
 }
 
-.directions-list{
-
-}
-
 .directions-list li{
  margin: 5px 0;
 }
-
-/*#map2{
-  width: 70%;
-  margin: auto;
-  padding-top: 10px;
-  border-top: 0.5px solid #a1bbd0;
-  border-bottom: 0.5px solid #a1bbd0;
-}*/
-
-/*#map2_text{*/
-  /*width: 70%;*/
-/*}*/
-
-/*#map2 p{*/
-  /*width: 70%;*/
-  /*margin: auto;*/
-/*}*/
-
-/*#map2 img{
-  width: 55%;
-  display: block;
-  margin: auto;*/
-  /*border-bottom: 0.5px solid #a1bbd0;*/
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
-/*}*/
 
 @media screen and (max-width: 700px) {
 
@@ -201,6 +171,22 @@
   #tip{
     margin-top: 35px;
     margin-bottom: 35px;
+  }
+
+  #directions-info-flexbox{
+    flex-direction: column;
+  }
+
+  #how-to-get-here-flexbox{
+    width: 90%;
+  }
+
+  .inner-flex-item{
+    height: 270px;
+  }
+
+  .outer-flex-item img{
+    width: 150%;
   }
 
 }
