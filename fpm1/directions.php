@@ -21,7 +21,7 @@
 <!-- NEW CODE GOES HERE -->
 <div id="tagline_div">
   <div id="tagline">
-    <h2>We're easy to find!</h2>
+    <h2>We're (mainly) easy to find!</h2>
   </div>
 </div>
 
@@ -119,13 +119,6 @@
 
 </div>
 
-<!-- <div id="map2">
-  <div id="map2_text">
-    <p>We also drew a map for you!<p>
-  </div>
-  <img src="images/map.jpg" alt="Google-Map" />
-</div>
-</div> -->
 <!-- NEW CODE ENDS HERE -->
 
 

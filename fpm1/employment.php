@@ -30,28 +30,28 @@
   <div id="main_text">
   <p>Looking for a fun and rewarding job? Join the Summerhill Brewing team and become a member of a close-knit, enthusiastic community that desires to produce the finest beer in a sustainable way!</p>
   <img src="images/employment.jpg" />
-  <p>Please fill out the following form and send your resume to summerhill.brewing@gmail.com.</p>
+  <p>Please fill out the following form and upload your resume.</p>
   </div>
 
   <div id="form_div">
-  <form id="employmentForm" action="employment-form-submitted.php" method="post" novalidate>
+  <form id="employmentForm" action="employment-form-submitted.php" method="post" enctype="multipart/form-data" novalidate>
     <div>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name1" required/>
+        <input type="text" id="name" name="user_name1">
         <span class="error hidden" id="nameError">
             No name provided.
         </span>
     </div>
     <div>
         <label for="mail">Email:</label>
-        <input type="email" id="email" name="user_mail1" required/>
+        <input type="email" id="email" name="user_mail1">
         <span class="error hidden" id="emailError">
             No or invalid email provided.
         </span>
     </div>
     <div>
         <label for="heard">How did you hear about us?</label>
-        <input type="text" id="heard" name="user_heard1" required/>
+        <input type="text" id="heard" name="user_heard1">
         <span class="error hidden" id="heardError">
             No answer provided.
         </span>
@@ -62,6 +62,14 @@
         <span class="error hidden" id="msgError">
           No answer provided.
         </span>
+    </div>
+<!--The code for the resume-upload element is modified from developer.mozilla.org-->
+    <div>
+      <label for="image_uploads">Please upload your resume (PDF).</label>
+      <input type="file" id="resumeupload" name="resumeupload" accept=".pdf">
+      <span class="error hidden" id="resumeError">
+        No resume uploaded.
+      </span>
     </div>
     <div id="checkbox">
       <label id="checkbox_label">Please select all postions that you are applying for.</label>
@@ -77,10 +85,9 @@
       <input type="checkbox" name="job[]" value="Server"> Server <br>
       <input type="checkbox" name="job[]" value="Host"> Host
       <span class="error hidden" id="jobError">
-        Nothing selected.
+        Please select at least one position.
       </span>
     </div>
-
     </div>
     <div class="button">
       <button type="submit">Submit</button>

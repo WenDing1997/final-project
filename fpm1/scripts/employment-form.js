@@ -3,22 +3,25 @@ $(document).ready(function() {
   $("#employmentForm").on("submit", function() {
     // console.log(1);
     var IsValid = true;
+    var nameEmpty = document.getElementById("name").value;
     var nameIsValid = $("#name").prop("validity").valid;
-    if(nameIsValid) {
+    if(nameEmpty.length > 0 && nameIsValid) {
       $("#nameError").hide();
     } else {
       $("#nameError").show();
       IsValid = false;
     }
+    var emailEmpty = document.getElementById("email").value;
     var emailIsValid = $("#email").prop("validity").valid;
-    if(emailIsValid) {
+    if(emailEmpty.length > 0 && emailIsValid) {
       $("#emailError").hide();
     } else {
       $("#emailError").show();
       IsValid = false;
     }
+    var heardEmpty = document.getElementById("heard").value;
     var heardIsValid = $("#heard").prop("validity").valid;
-    if(heardIsValid) {
+    if(heardEmpty.length > 0 && heardIsValid) {
       $("#heardError").hide();
     } else {
       $("#heardError").show();
@@ -32,6 +35,13 @@ $(document).ready(function() {
       $("#msgError").hide();
     } else {
       $("#msgError").show();
+      IsValid = false;
+    }
+    var resumeEmpty = document.getElementById("resumeupload").value
+    if(resumeEmpty != "") {
+      $("#resumeError").hide();
+    } else {
+      $("#resumeError").show();
       IsValid = false;
     }
     var isChecked =  $('input:checkbox').is(':checked')
