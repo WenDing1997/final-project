@@ -175,6 +175,10 @@
 /* Handle responsive CSS here */
 @media screen and (max-width:1000px) {
 
+  .slideshow_img{
+    width: 80%;
+  }
+
   #info{
     /*text-align: center;*/
   }
@@ -184,12 +188,13 @@
   }
 
   #item1{
-    width: 70%;
+    width: 100%;
     margin-bottom: 20px;
   }
 
   #item2{
-    width: 70%;
+    width: 100%;
+    padding-bottom: 10%;
   }
 
 }
