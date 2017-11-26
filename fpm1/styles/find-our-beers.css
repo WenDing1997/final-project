@@ -49,4 +49,11 @@
 
   .sub_flex_wrapper_2{
     flex-direction: column;
+    width:100%;
   }
+
+  .market_img img{
+    width:120%;
+  }
+
+}

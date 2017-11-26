@@ -48,6 +48,11 @@
 /* Handle responsive CSS here */
 @media screen and (max-width: 768px) {
 
+  #main_flex_wrapper {
+    width: 90%;
+    padding-left: 10%;
+  }
+
   .sub_flex_wrapper{
     flex-direction: column;
   }
@@ -59,6 +64,10 @@
   .beer_description{
     width: 90%;
     margin: 30px 0px 0px 0px;
+  }
+
+  p {
+    font-size: 18px;
   }
 
 }
