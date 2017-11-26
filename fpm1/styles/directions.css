@@ -135,7 +135,6 @@
 
 .inner-flex-item{
   width: 100%;
-  height: 350px;
 }
 
 .inner-flex-item h2{
@@ -213,7 +212,8 @@
   }
 
   .inner-flex-item{
-    height: 270px;
+    height: 100%;
+    margin-bottom: 10%;
   }
 
   .outer-flex-item img{
