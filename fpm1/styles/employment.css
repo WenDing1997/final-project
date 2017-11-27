@@ -28,6 +28,10 @@ form {
   /*border: 1px red solid;*/
 }
 
+form textarea {
+  width:70%;
+}
+
 form div + div {
   margin-top: 5px;;
 }
