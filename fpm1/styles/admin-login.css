@@ -16,6 +16,10 @@
 }
 
 #btn{
+  width: 100%;
+  font-size: 110%;
+  font-weight: bold;
+  font-family: cabin, sans-serif;
   padding: 6px 40px 6px 40px;
   clear:both;
 }
