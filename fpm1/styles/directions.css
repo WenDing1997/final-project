@@ -178,6 +178,9 @@
     margin-bottom: 35px;
   }
 
+  li {
+    font-size: 18px;
+  }
 
   #how-to-get-here-flexbox{
     width: 100%;
