@@ -35,44 +35,56 @@
 
   <div id="form_div">
   <form id="employmentForm" action="employment-form-submitted.php" method="post" enctype="multipart/form-data" novalidate>
-    <div>
+    <div class="question">
+        <div>
         <label for="name">Name:</label>
+      </div>
         <input type="text" id="name" name="user_name1">
         <span class="error hidden" id="nameError">
             No name provided.
         </span>
     </div>
-    <div>
+    <div class="question">
+        <div>
         <label for="mail">Email:</label>
+      </div>
         <input type="email" id="email" name="user_mail1">
         <span class="error hidden" id="emailError">
             No or invalid email provided.
         </span>
     </div>
-    <div>
+    <div class="question">
+      <div>
         <label for="heard">How did you hear about us?</label>
+      </div>
         <input type="text" id="heard" name="user_heard1">
         <span class="error hidden" id="heardError">
             No answer provided.
         </span>
     </div>
-    <div>
+    <div class="question">
+      <div>
         <label for="msg">Why do you want to join Summerhill Brewing?</label>
+      </div>
         <textarea id="msg" name="user_message1"></textarea>
         <span class="error hidden" id="msgError">
           No answer provided.
         </span>
     </div>
 <!--The code for the resume-upload element is modified from developer.mozilla.org-->
-    <div>
+    <div class="question">
+      <div>
       <label for="image_uploads">Please upload your resume (PDF).</label>
+    </div>
       <input type="file" id="resumeupload" name="resumeupload" accept=".pdf">
       <span class="error hidden" id="resumeError">
         No resume uploaded.
       </span>
     </div>
-    <div id="checkbox">
+    <div class="question" id="checkbox">
+      <div>
       <label id="checkbox_label">Please select all postions that you are applying for.</label>
+    </div>
     <div id="checkbox_options">
       <input type="checkbox" name="job[]" value="General Manager"> General Manager <br>
       <input type="checkbox" name="job[]" value="Quality Manager"> Quality Manager <br>

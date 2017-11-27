@@ -32,22 +32,15 @@ form div + div {
   margin-top: 5px;;
 }
 
-label {
-  display: inline-block;
-  width: 230px;
-  text-align: right;
-  /*border: 1px red solid;*/
-  /*float: left;*/
-}
+
 
 .button{
-  text-align: center;
-  /*padding-left: 23%;*/
-  /*float: left;*/
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #checkbox_label{
-  float: left;
+
   /*border: 1px red solid;*/
 }
 
@@ -61,7 +54,7 @@ label {
 
 #form_div{
   width: 600px;
-  margin: auto;
+  margin-left: 2%;
   border-bottom: 0.5px solid #a1bbd0;
   /*border: 1px blue solid;*/
 }
@@ -86,4 +79,36 @@ label {
 
 #resumeupload{
   width: 175px;
+}
+
+.question{
+  margin-bottom: 3%;
+}
+
+
+@media screen and (max-width: 700px) {
+
+  #main_box{
+    width:85%;
+  }
+
+  #form_div{
+    width:100%;
+  }
+
+  #employmentForm{
+    width:100%;
+  }
+
+  .button{
+    margin-top: 20%;
+  }
+
+  .question{
+    margin-bottom: 7%;
+  }
+
+
+
+
 }
