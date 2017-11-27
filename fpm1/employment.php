@@ -58,6 +58,11 @@ if (isset($submit)) {
     $_SESSION['resume'] = $resume;
     $_SESSION['job'] = $job;
 
+    //The following 3 lines of code are modified from w3schools.com
+    $target_dir = "resume/";
+    $target_file = $target_dir . basename($_FILES["resumeupload"]["name"]);
+    move_uploaded_file($_FILES["resumeupload"]["tmp_name"], $target_file);
+
     header("Location: employment-form-submitted.php");
     return;
   }
@@ -71,12 +76,6 @@ if (isset($submit)) {
 }
 ?>
 
-<!--The following five lines of code are modified from stackoverflow.com-->
-<?php
-$target_Path = "resume/";
-$target_Path = $target_Path.basename( $_FILES['resumeupload']['name'] );
-move_uploaded_file( $_FILES['resumeupload']['tmp_name'], $target_Path );
-?>
 <!-- Being hours & events html -->
 
   <!-- Include html header -->
