@@ -29,7 +29,7 @@
 
   if ($numTries > 3) {
     $tooManyTries = True;
-    unset($_SESSION["numTries"]);
+    // unset($_SESSION["numTries"]);
   }  // end if
 
   // true when user clicked on the "Log Out" button
@@ -119,7 +119,7 @@
         <input type="password" name="pwd" id="pswrd"/><br /><br />
         <input type="submit" value="Login" name="submit" id="btn" />
       </form>
-      <p class="italic">If you've reached this page by mistake, please return to the website.</p>
+      <p class="italic">If you've reached this page by mistake, <a href="index.php">please return to the website.</a></p>
     </div>
   </div>
   <!-- include footer  section -->

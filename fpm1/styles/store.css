@@ -2,18 +2,6 @@
   font-family: "lobster";
 }
 
-/*#tagline_div_5{
-  width: 100%;
-}
-
-#tagline_5{
-  margin: 0px auto;
-  font-family: 'lobster';
-  font-size: 1.5em;
-  width: 70%;
-  border-bottom: 0.5px solid #a1bbd0;
-}*/
-
 a{
   text-decoration: none;
 }
@@ -36,17 +24,18 @@ a:hover{
   width: 30%;
   padding: 10px;
   margin-bottom: 20px;
+  min-height: 500px;
 }
 
 .item-img-div{
-  border: solid 1px #1E1E1E;
+  border: solid 1px dimgray;
   border-radius: 8px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   height: 300px;
-  transition: all .3s ease;
+  transition: all .5s ease;
   cursor: pointer;
 }
 
@@ -128,6 +117,10 @@ a:hover{
 .item-price{
   font-size: 120%;
   color: gray;
+}
+
+.item-description{
+  font-size: 110%;
 }
 
 @media screen and (max-width: 700px) {

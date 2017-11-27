@@ -10,10 +10,10 @@
         href="styles/index.css"
         media="all">
 
-  <link rel="stylesheet"
+  <!-- <link rel="stylesheet"
         type="text/css"
         href="http://www.w3schools.com/lib/w3.css"
-        media="all">
+        media="all"> -->
 
 
     <!-- Load slideshow script-->

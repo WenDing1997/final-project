@@ -9,7 +9,7 @@
 
 .slideshow_img{
   margin: 0px auto;
-  width: 70%;
+  width: 60%;
 }
 
 .slideshow img{
@@ -119,6 +119,7 @@
   word-wrap: break-word;
   background-image: url("../images/road.JPG");
   text-align: right;
+  min-height: 300px;
 }
 
 #item2 #direction_title{
@@ -179,10 +180,6 @@
     width: 80%;
   }
 
-  #info{
-    /*text-align: center;*/
-  }
-
   #info_div{
     flex-direction: column;
   }
@@ -194,7 +191,7 @@
 
   #item2{
     width: 100%;
-    padding-bottom: 10%;
+    min-height: 300px;
   }
 
 }
