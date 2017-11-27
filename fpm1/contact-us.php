@@ -1,4 +1,5 @@
-<?php
+<?php include "includes/head.php";
+
 $submit = $_REQUEST["submit"];
 $name = $_REQUEST["user_name"];
 $email = $_REQUEST["user_mail"];
@@ -21,7 +22,7 @@ if (isset($submit)) {
   $isMsgValid = !$isMsgEmpty;
 
   if ($isNameValid && $isEmailValid && $isSubjectValid && $isMsgValid) {
-    session_start();
+    // session_start();
     $_SESSION['name'] = $name;
     $_SESSION['email'] = $email;
     $_SESSION['subject'] = $subject;
@@ -40,9 +41,6 @@ if (isset($submit)) {
 <!-- Being hours & events html -->
 
   <!-- Include html header -->
-  <?php
-    include "includes/head.php";
-  ?>
 
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="scripts/contact-form.js"></script>

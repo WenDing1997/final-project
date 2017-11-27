@@ -83,7 +83,7 @@ a:active{
 
 #tagline {
   margin: 0px auto;
-  font-family: 'cabin-condensed';
+  font-family: "lobster";
   font-size: 1.5em;
   width: 70%;
   border-bottom: 1px solid #a1bbd0;
@@ -216,6 +216,10 @@ nav li.sublist {
 footer{
   margin: 80px 0px 0px 0px;
   /*background-color: #e6e600;*/
+}
+
+#footer_hidden {
+  display: none;
 }
 
 #back_btn{
