@@ -1,8 +1,4 @@
-<!-- Being hours & events html -->
-<html>
-
-  <!-- Include html header -->
-  <?php
+<?php
     include "includes/head.php";
   ?>
   <link rel="stylesheet" type="text/css" href="styles/employment.css" media="all"/>

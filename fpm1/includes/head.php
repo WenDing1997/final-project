@@ -1,3 +1,6 @@
+<?php include "includes/visitor_count.php"
+?>
+
 <!-- Begin common header for all pages -->
 
 <!-- Set HTML -->

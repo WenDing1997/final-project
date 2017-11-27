@@ -1,5 +1,3 @@
-<!-- Being hours & events html -->
-<!-- Include html header -->
 <?php
 include "includes/head.php";
 ?>

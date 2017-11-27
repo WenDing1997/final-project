@@ -1,7 +1,4 @@
-<!-- Being homepage html -->
-
-  <!-- Include html header -->
-  <?php
+<?php
     include "includes/head.php";
   ?>
 
