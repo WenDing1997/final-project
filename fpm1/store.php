@@ -98,7 +98,10 @@
     </div>
     <span class="item-name">Gift Basket</span><br>
     <span class="item-price">$35.00</span>
-    <p class="item-description">Our baskets make marvelous presents</p>
+    <p class="item-description">Our baskets make excellent presents for those special occassions. They include
+    our signature beer mugs, growlers, quality chocolates, artisanal cheeses, high-end smoked meats, a gallon of
+    our hand-crafter beer, and an assortment of other goodies. And the best part? All products
+    are 100% local. Don't forget to shop small!</p>
   </div>
 
 </div>
