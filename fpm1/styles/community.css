@@ -79,6 +79,10 @@ p {
     width:80%;
   }
 
+  #flex-container p {
+    font-size: 18px;
+  }
+
   .sub-div {
     flex-direction: column;
     margin-left: 2%;
@@ -90,9 +94,7 @@ p {
     margin-bottom: 20px;
   }
 
-  p {
-    font-size: 18px;
-  }
+
 
 
   .sub-div-description {

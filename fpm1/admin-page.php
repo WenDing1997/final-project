@@ -15,6 +15,7 @@
     $loggedOut = True;
     $_SESSION["logout"] = $loggedOut;
     unset($_SESSION['loggedIn']);
+    unset($_SESSION["numTries"]);
     header("Location: admin-login.php");
   }
 

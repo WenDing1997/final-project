@@ -29,7 +29,7 @@
 
   if ($numTries > 3) {
     $tooManyTries = True;
-    unset($_SESSION["numTries"]);
+    // unset($_SESSION["numTries"]);
   }  // end if
 
   // true when user clicked on the "Log Out" button
@@ -99,10 +99,10 @@
 
   <div id="login-div">
     <div id="login-form">
-      <h2 class="<?php if(!$loggedOut) {echo("hidden");} ?>">Successfully Logged Out</h2>
-      <h2 class="<?php if(!$tooManyTries) {echo("hidden");} ?>">Too many false attempts. Try again later.</h2>
+      <h2 class="msg <?php if(!$loggedOut) {echo("hidden");} ?>">Successfully Logged Out</h2>
+      <h2 class="msg <?php if(!$tooManyTries) {echo("hidden");} ?>">Too many false attempts. Try again later.</h2>
 
-      <p>Welcome to admin login</p>
+      <h3>Welcome to administrative login.</h3>
       <form method="post" action="admin-login.php">
         <span class="errorMsg <?php if(!$usernameIsEmpty) {echo("hidden");} ?>">You must enter a username.</span>
         <br class="<?php if(!$usernameIsEmpty) {echo("hidden");} ?>" />
@@ -117,8 +117,9 @@
         <br class="<?php if($passwordIsValid) {echo("hidden");} ?>" />
         Password:
         <input type="password" name="pwd" id="pswrd"/><br /><br />
-        <input type="submit" value="Log In" name="submit" id="btn" />
+        <input type="submit" value="Login" name="submit" id="btn" />
       </form>
+      <p class="italic">If you've reached this page by mistake, <a href="index.php">please return to the website.</a></p>
     </div>
   </div>
   <!-- include footer  section -->

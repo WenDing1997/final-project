@@ -135,6 +135,8 @@
 
 .inner-flex-item{
   width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .inner-flex-item h2{
@@ -178,6 +180,9 @@
     margin-bottom: 35px;
   }
 
+  li {
+    font-size: 18px;
+  }
 
   #how-to-get-here-flexbox{
     width: 100%;
@@ -202,7 +207,6 @@
     height: 100%;
   }
 
-
   #directions-info-flexbox{
     flex-direction: column;
   }
@@ -213,7 +217,8 @@
 
   .inner-flex-item{
     height: 100%;
-    margin-bottom: 10%;
+    /*margin-top: 0px;*/
+    margin-bottom: 0%;
   }
 
   .outer-flex-item img{

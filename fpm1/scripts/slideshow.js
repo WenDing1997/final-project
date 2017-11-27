@@ -50,7 +50,7 @@ $(document).ready(function () {
     if (idx == totImgLength) { idx = 0 }
 
     // $(".slide").attr("src", currentImage);
-    setTimeout(slideshow, 5000);
+    setTimeout(slideshow, 3500);
   }
 
 
