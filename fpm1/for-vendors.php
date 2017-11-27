@@ -1,3 +1,47 @@
+<?php
+$submit = $_REQUEST["submit"];
+$businessorg = $_REQUEST["businessorg"];
+$contactname = $_REQUEST["contactname"];
+$email = $_REQUEST["email"];
+$telephone = $_REQUEST["telephone"];
+$address = $_REQUEST["address"];
+$addq = $_REQUEST["addq"];
+
+if (isset($submit)) {
+  $isBusinessorgEmpty = empty($businessorg);
+  $isBusinessorgValid = !$isBusinessorgEmpty;
+  console.log($isBusinessorgValid);
+
+  $isContactnameEmpty = empty($contactname);
+  $isContactnameValid = !$isContactnameEmpty;
+
+  $isEmailEmpty = empty($email);
+  $isEmailAddress = filter_var($email, FILTER_VALIDATE_EMAIL);
+  $isEmailValid = !$isEmailEmpty && $isEmailAddress;
+
+  $isTelephoneEmpty = empty($telephone);
+  $isTelephoneValid = !$isTelephoneEmpty;
+
+  if ($isBusinessorgValid && $isContactnameValid && $isEmailValid && $isTelephoneValid) {
+    session_start();
+    $_SESSION['businessorg'] = $businessorg;
+    $_SESSION['contactname'] = $contactname;
+    $_SESSION['email'] = $email;
+    $_SESSION['telephone'] = $telephone;
+    $_SESSION['address'] = $address;
+    $_SESSION['addq'] = $addq;
+
+    header("handlingform.php");
+    return;
+  }
+} else {
+  $isBusinessorgValid = true;
+  $isContactnameValid = true;
+  $isEmailValid = true;
+  $isTelephoneValid = true;
+}
+?>
+
 <!-- Being hours & events html -->
 
   <!-- Include html header -->
@@ -87,7 +131,7 @@
             <label for="address">Address (optional): </label>
           </div>
           <div class="answer">
-            <textarea name="address"></textarea>
+            <textarea id="address" name="address"></textarea>
           </div>
         </div>
 
@@ -96,12 +140,12 @@
             <label for="addq">Additional Inquiries (optional): </label>
           </div>
           <div class="answer">
-            <textarea name="addq"></textarea>
+            <textarea name="addq" id="addq"></textarea>
           </div>
         </div>
 
         <div>
-          <button id="submitbutton" type="submit" class="submit">Submit</button>
+          <button id="submit" type="submit" class="submit">Submit</button>
         </div>
         </form>
 </div>

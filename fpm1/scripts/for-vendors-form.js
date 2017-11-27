@@ -1,5 +1,9 @@
-$(document).ready(function() {
+// Set variable VENDORS_TEST_PHP_FORM to true, if you want to test PHP form validation for vendors-form without
+// client-side jQuery validation.
+var VENDORS_TEST_PHP_FORM = true;
 
+$(document).ready(function() {
+  if(!VENDORS_TEST_PHP_FORM){
   $("#vendorForm").on("submit", function() {
     var IsValid = true;
     var businessorgEmpty = document.getElementById("businessorg").value;
@@ -41,5 +45,5 @@ $(document).ready(function() {
     // console.log(IsValid);
     return IsValid;
   });
-
+  }
 });

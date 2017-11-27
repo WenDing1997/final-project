@@ -55,7 +55,7 @@ form div + div {
 #form_div{
   width: 600px;
   margin-left: 2%;
-  border-bottom: 0.5px solid #a1bbd0;
+  /*border-bottom: 0.5px solid #a1bbd0;*/
   /*border: 1px blue solid;*/
 }
 
