@@ -10,7 +10,6 @@ $addq = $_REQUEST["addq"];
 if (isset($submit)) {
   $isBusinessorgEmpty = empty($businessorg);
   $isBusinessorgValid = !$isBusinessorgEmpty;
-  console.log($isBusinessorgValid);
 
   $isContactnameEmpty = empty($contactname);
   $isContactnameValid = !$isContactnameEmpty;
@@ -31,7 +30,7 @@ if (isset($submit)) {
     $_SESSION['address'] = $address;
     $_SESSION['addq'] = $addq;
 
-    header("handlingform.php");
+    header("Location: handlingform.php");
     return;
   }
 } else {
@@ -75,15 +74,15 @@ if (isset($submit)) {
 
 <div id="formandpic">
 <div id="form">
-<form method="post" action="handlingform.php" id="vendorForm" novalidate>
+<form method="post" action="for-vendors.php" id="vendorForm" novalidate>
 
         <div class="qsection">
           <div class="question">
             <label for="businessorg">Business/Company Name: </label>
           </div>
           <div class="answer">
-            <input name="businessorg" id="businessorg">
-            <span class="error hidden" id="businessnameError">
+            <input name="businessorg" id="businessorg" value="<?php echo( htmlspecialchars($businessorg) );?>">
+            <span class="error <?php if ($isBusinessorgValid) { echo("hidden"); } ?>" id="businessnameError">
               No name provided.
             </span>
           </div>
@@ -94,8 +93,8 @@ if (isset($submit)) {
             <label for="contactname">Contact Name:</label>
           </div>
           <div class="answer">
-            <input name="contactname" id="contactname">
-            <span class="error hidden" id="contactnameError">
+            <input name="contactname" id="contactname" value="<?php echo( htmlspecialchars($contactname) );?>">
+            <span class="error <?php if ($isContactnameValid) { echo("hidden"); } ?>" id="contactnameError">
               No name provided.
             </span>
           </div>
@@ -107,8 +106,8 @@ if (isset($submit)) {
             <label for="lastName">Contact Email: </label>
           </div>
           <div class="answer">
-            <input type="email" name="email" id="email">
-            <span class="error hidden" id="emailError">
+            <input type="email" name="email" id="email" value="<?php echo( htmlspecialchars($email) );?>">
+            <span class="error <?php if ($isEmailValid) { echo("hidden"); } ?>" id="emailError">
               No or invalid email provided.
             </span>
           </div>
@@ -119,8 +118,8 @@ if (isset($submit)) {
             <label for="telephone">Phone Number: </label>
           </div>
           <div class="answer">
-            <input name="telephone" id="telephone">
-            <span class="error hidden" id="numberError">
+            <input name="telephone" id="telephone" value="<?php echo( htmlspecialchars($telephone) );?>">
+            <span class="error <?php if ($isTelephoneValid) { echo("hidden"); } ?>" id="numberError">
               No number provided.
             </span>
           </div>
@@ -131,7 +130,7 @@ if (isset($submit)) {
             <label for="address">Address (optional): </label>
           </div>
           <div class="answer">
-            <textarea id="address" name="address"></textarea>
+            <textarea id="address" name="address"><?php echo( htmlspecialchars($address) );?></textarea>
           </div>
         </div>
 
@@ -140,12 +139,12 @@ if (isset($submit)) {
             <label for="addq">Additional Inquiries (optional): </label>
           </div>
           <div class="answer">
-            <textarea name="addq" id="addq"></textarea>
+            <textarea name="addq" id="addq"><?php echo( htmlspecialchars($addq) );?></textarea>
           </div>
         </div>
 
         <div>
-          <button id="submit" type="submit" class="submit">Submit</button>
+          <button id="submit" type="submit" class="submit" name="submit">Submit</button>
         </div>
         </form>
 </div>

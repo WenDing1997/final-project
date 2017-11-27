@@ -1,5 +1,9 @@
-$(document).ready(function() {
+// Set variable CONTACT_TEST_PHP_FORM to true, if you want to test PHP form validation for contact-form without
+// client-side jQuery validation.
+var CONTACT_TEST_PHP_FORM = false;
 
+$(document).ready(function() {
+  if(!CONTACT_TEST_PHP_FORM){
   $("#contactForm").on("submit", function() {
     // console.log(1);
     var IsValid = true;
@@ -30,7 +34,7 @@ $(document).ready(function() {
     // var msgIsValid = $("#msg").prop("validity").valid;
     var empty = document.getElementById("msg").value;
     // console.log(empty);
-    console.log(empty.length);
+    // console.log(empty.length);
     if(empty.length > 0) {
       $("#msgError").hide();
     } else {
@@ -40,5 +44,5 @@ $(document).ready(function() {
     // console.log(IsValid);
     return IsValid;
   });
-
+  }
 });
