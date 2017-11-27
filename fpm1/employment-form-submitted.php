@@ -1,6 +1,25 @@
-<?php
-    include "includes/head.php";
-  ?>
+<?php include "includes/head.php";
+
+$user_name1=$_POST['user_name1'];
+$user_mail1=$_POST['user_mail1'];
+$user_heard1=$_POST['user_heard1'];
+$user_message1=$_POST['user_message1'];
+foreach($_POST['job'] as $selected) {
+  $user_job=$user_job." - ".$selected;
+}
+
+$data = $user_name1.",".$user_mail1.",".$user_heard1.",".$user_message1.",".$user_job;
+
+$file = "employmentformdata.csv";
+
+file_put_contents($file, $data . PHP_EOL, FILE_APPEND);
+?>
+
+<!-- Being hours & events html -->
+
+
+  <!-- Include html header -->
+
   <link rel="stylesheet" type="text/css" href="styles/employment.css" media="all"/>
 </head>
 

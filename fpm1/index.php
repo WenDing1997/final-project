@@ -2,11 +2,16 @@
     include "includes/head.php";
   ?>
 
-  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <link rel="stylesheet"
         type="text/css"
         href="styles/index.css"
         media="all">
+
+  <!-- <link rel="stylesheet"
+        type="text/css"
+        href="http://www.w3schools.com/lib/w3.css"
+        media="all"> -->
+
 
     <!-- Load slideshow script-->
     <script src="scripts/slideshow.js" type="text/javascript"></script>

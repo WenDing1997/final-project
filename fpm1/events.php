@@ -34,13 +34,16 @@
         with plans to expand in the near future. Because of the size of our
         current brew system and having a shared space for public beer tasting
         and brewing, we are not able to be open consistently. Please check our
-        website and Facebook page for hours and openings. We sincerely
+        website and <a href="https://www.facebook.com/Summerhill.brewing/"
+        target="_blank">Facebook page</a> for hours and openings. We sincerely
         appreciate your patience and understanding!</p>
     </div>
 
   <div class="flex-container">
     <div class="sub-div">
-      <h2>Upcoming Tasting Room Hours</h2>
+      <h2>Upcoming Tasting Room Hours
+        <span id="btn"><a href="directions.php">Get Directions<span id="arrow">&#8680;</span></a></span>
+      </h2>
       <p class="date-and-time-info">
         <span class="date">Wednesday, November 22nd</span><br>
         <span class="italic time">2pm - 8pm</span></p>
@@ -64,8 +67,11 @@
         <span class="italic time">3pm to 6pm</span></p>
     </div>
     <!-- Embed Google Calendar -->
+  </div>
+
+  <div id="calendar">
     <h2>Calendar</h2>
-    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=500&amp;wkst=1&amp;hl=en&amp;bgcolor=%23FFFFFF&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York" style="border-width:0" frameborder="0" scrolling="no"></iframe>
+    <iframe id="iframe" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=500&amp;wkst=1&amp;hl=en&amp;bgcolor=%23FFFFFF&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York" style="border-width:0" frameborder="0" scrolling="no"></iframe>
   </div>
 
   <div class="flex-container past-events">

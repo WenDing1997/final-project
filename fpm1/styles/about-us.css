@@ -1,16 +1,3 @@
-#tagline_div_4{
-  width: 100%;
-}
-
-#tagline_4{
-  margin: 0px auto;
-  font-family: 'lobster';
-  font-size: 1.5em;
-  width: 70%;
-  border-bottom: 1px solid #a1bbd0;
-}
-
-
 .aboutparagraph {
   margin-left: 15%;
   margin-right:15%;
@@ -24,7 +11,11 @@
   border-radius: 8px;
 }
 
-@media screen and (max-width: 700px) {
+.aboutparagraph p {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 900px) {
 
   .aboutparagraph {
     margin-left: 10%;
@@ -33,8 +24,8 @@
 
   #aboutuspic {
     margin-top: 5%;
-    margin-left:15%;
-    width:70%;
+    margin-left:11%;
+    width:80%;
   }
 
 

@@ -1,8 +1,4 @@
 /* Begin our beers styling */
-#tagline{
-  font-family: "lobster";
-}
-
 #main_flex_wrapper{
   display: flex;
   flex-direction: column;
@@ -48,6 +44,11 @@
 /* Handle responsive CSS here */
 @media screen and (max-width: 768px) {
 
+  #main_flex_wrapper {
+    width: 90%;
+    padding-left: 10%;
+  }
+
   .sub_flex_wrapper{
     flex-direction: column;
   }
@@ -59,6 +60,11 @@
   .beer_description{
     width: 90%;
     margin: 30px 0px 0px 0px;
+  }
+
+
+  .sub_flex_wrapper p{
+    font-size: 18px;
   }
 
 }

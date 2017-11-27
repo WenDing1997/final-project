@@ -1,7 +1,3 @@
-#tagline{
-  font-family: "lobster";
-}
-
 #flex-container {
   display: flex;
   flex-direction: column;
@@ -75,15 +71,27 @@ p {
 }
 
 @media screen and (max-width: 700px) {
+  #flex-container {
+    width:80%;
+  }
+
+  #flex-container p {
+    font-size: 18px;
+  }
+
   .sub-div {
     flex-direction: column;
+    margin-left: 2%;
   }
 
   .sub-div-img {
-    width: 90%;
+    width: 108%;
     margin: 0 auto;
     margin-bottom: 20px;
   }
+
+
+
 
   .sub-div-description {
     width: 100%;

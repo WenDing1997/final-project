@@ -18,8 +18,8 @@ include "includes/head.php";
 
     <!-- NEW CODE GOES HERE -->
 
-    <div id="tagline_4_div">
-      <div id="tagline_4">
+    <div id="tagline_div">
+      <div id="tagline">
         <h2>Summerhill Brewing is a family business dedicated to making authentic, handcrafted small batch ales. </h2>
       </div>
     </div>

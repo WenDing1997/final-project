@@ -1,10 +1,57 @@
-<?php
-    include "includes/head.php";
-  ?>
+<?php include "includes/head.php";
+$submit = $_REQUEST["submit"];
+$businessorg = $_REQUEST["businessorg"];
+$contactname = $_REQUEST["contactname"];
+$email = $_REQUEST["email"];
+$telephone = $_REQUEST["telephone"];
+$address = $_REQUEST["address"];
+$addq = $_REQUEST["addq"];
+
+if (isset($submit)) {
+  $isBusinessorgEmpty = empty($businessorg);
+  $isBusinessorgValid = !$isBusinessorgEmpty;
+
+  $isContactnameEmpty = empty($contactname);
+  $isContactnameValid = !$isContactnameEmpty;
+
+  $isEmailEmpty = empty($email);
+  $isEmailAddress = filter_var($email, FILTER_VALIDATE_EMAIL);
+  $isEmailValid = !$isEmailEmpty && $isEmailAddress;
+
+  $isTelephoneEmpty = empty($telephone);
+  $isTelephoneValid = !$isTelephoneEmpty;
+
+  if ($isBusinessorgValid && $isContactnameValid && $isEmailValid && $isTelephoneValid) {
+    session_start();
+    $_SESSION['businessorg'] = $businessorg;
+    $_SESSION['contactname'] = $contactname;
+    $_SESSION['email'] = $email;
+    $_SESSION['telephone'] = $telephone;
+    $_SESSION['address'] = $address;
+    $_SESSION['addq'] = $addq;
+
+    header("Location: handlingform.php");
+    return;
+  }
+} else {
+  $isBusinessorgValid = true;
+  $isContactnameValid = true;
+  $isEmailValid = true;
+  $isTelephoneValid = true;
+}
+?>
+
+<!-- Being hours & events html -->
+
+  <!-- Include html header -->
+
   <link rel="stylesheet"
       type="text/css"
       href="styles/for-vendors.css"
       media="all">
+
+      <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="scripts/for-vendors-form.js"></script>
 </head>
 
 <body>
@@ -23,23 +70,19 @@
   </div>
 </div>
 
-<form method="post" action="handlingform.php" id="vendorForm">
+<div id="formandpic">
+<div id="form">
+<form method="post" action="for-vendors.php" id="vendorForm" novalidate>
 
         <div class="qsection">
           <div class="question">
             <label for="businessorg">Business/Company Name: </label>
           </div>
           <div class="answer">
-            <input name="businessorg" required>
-          </div>
-        </div>
-
-        <div class="qsection">
-          <div class="question">
-            <label for="address">Address: </label>
-          </div>
-          <div class="answer">
-            <textarea name="address"></textarea>
+            <input name="businessorg" id="businessorg" value="<?php echo( htmlspecialchars($businessorg) );?>">
+            <span class="error <?php if ($isBusinessorgValid) { echo("hidden"); } ?>" id="businessnameError">
+              No name provided.
+            </span>
           </div>
         </div>
 
@@ -48,16 +91,23 @@
             <label for="contactname">Contact Name:</label>
           </div>
           <div class="answer">
-            <input name="contactname" required>
+            <input name="contactname" id="contactname" value="<?php echo( htmlspecialchars($contactname) );?>">
+            <span class="error <?php if ($isContactnameValid) { echo("hidden"); } ?>" id="contactnameError">
+              No name provided.
+            </span>
           </div>
         </div>
 
         <div class="qsection">
+        <!-- <div class="a"> -->
           <div class="question">
             <label for="lastName">Contact Email: </label>
           </div>
           <div class="answer">
-            <input type="email" name="userEmail" required>
+            <input type="email" name="email" id="email" value="<?php echo( htmlspecialchars($email) );?>">
+            <span class="error <?php if ($isEmailValid) { echo("hidden"); } ?>" id="emailError">
+              No or invalid email provided.
+            </span>
           </div>
         </div>
 
@@ -66,32 +116,46 @@
             <label for="telephone">Phone Number: </label>
           </div>
           <div class="answer">
-            <input name="telephone" required>
+            <input name="telephone" id="telephone" value="<?php echo( htmlspecialchars($telephone) );?>">
+            <span class="error <?php if ($isTelephoneValid) { echo("hidden"); } ?>" id="numberError">
+              No number provided.
+            </span>
           </div>
         </div>
 
         <div class="qsection">
           <div class="question">
-            <label for="addq">Additional Inquiries: </label>
+            <label for="address">Address (optional): </label>
           </div>
           <div class="answer">
-            <textarea name="addq"></textarea>
+            <textarea id="address" name="address"><?php echo( htmlspecialchars($address) );?></textarea>
+          </div>
+        </div>
+
+        <div class="qsection">
+          <div class="question">
+            <label for="addq">Additional Inquiries (optional): </label>
+          </div>
+          <div class="answer">
+            <textarea name="addq" id="addq"><?php echo( htmlspecialchars($addq) );?></textarea>
           </div>
         </div>
 
         <div>
-          <button id="submitbutton" type="submit" class="submit">Submit</button>
+          <button id="submit" type="submit" class="submit" name="submit">Submit</button>
         </div>
-    </form>
+        </form>
+</div>
+<img id="vendorcontactpic" src="images/vendorcontact.jpg" alt="vendorpicture"/>
+</div>
 
-    <img id="vendorcontactpic" src="images/vendorcontact.jpg" alt="vendorpicture"/>
 <!-- NEW CODE ENDS HERE -->
-
 
   <!-- include footer  section -->
   <?php
     include "includes/footer.php";
   ?>
+
 
   </div> <!-- end main_container div -->
 

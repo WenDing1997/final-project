@@ -9,7 +9,7 @@
 
 .slideshow_img{
   margin: 0px auto;
-  width: 70%;
+  width: 60%;
 }
 
 .slideshow img{
@@ -119,6 +119,7 @@
   word-wrap: break-word;
   background-image: url("../images/road.JPG");
   text-align: right;
+  min-height: 300px;
 }
 
 #item2 #direction_title{
@@ -175,8 +176,8 @@
 /* Handle responsive CSS here */
 @media screen and (max-width:1000px) {
 
-  #info{
-    /*text-align: center;*/
+  .slideshow_img{
+    width: 80%;
   }
 
   #info_div{
@@ -184,12 +185,13 @@
   }
 
   #item1{
-    width: 70%;
+    width: 100%;
     margin-bottom: 20px;
   }
 
   #item2{
-    width: 70%;
+    width: 100%;
+    min-height: 300px;
   }
 
 }
