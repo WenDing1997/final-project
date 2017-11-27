@@ -18,7 +18,7 @@
         <ul id="social-media-list">
           <li>
         <!-- Source: https://icon-icons.com/icons2/91/PNG/512/facebook_16423.png -->
-        <a href="https://www.facebook.com/pg/Summerhill.brewing/photos/" target="_blank">
+        <a href="https://www.facebook.com/Summerhill.brewing/" target="_blank">
           <img id="fb" src="../images/facebook.PNG" alt="facebook"></a>
           </li>
           <li>

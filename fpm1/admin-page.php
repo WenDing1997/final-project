@@ -1,11 +1,21 @@
 <!-- Begin hours & events html -->
 
 <?php
-
   session_start();
-  // if not logged in already, redirect to login page
-  if ( $_SESSION['loggedIn'] != true ) {
-    header("Location: admin-login.php")
+
+  $submit = $_REQUEST["submit"];
+  $loggedIn = $_SESSION['loggedIn'];
+  $loggedOut = False;
+
+  if ( $loggedIn == False ) {
+    header("Location: admin-login.php");
+  }  // end if
+
+  if ( isset($submit) ) {
+    $loggedOut = True;
+    $_SESSION["logout"] = $loggedOut;
+    unset($_SESSION['loggedIn']);
+    header("Location: admin-login.php");
   }
 
 ?>
@@ -28,8 +38,13 @@
     include "includes/header.php";
   ?>
   <div id="login-form">
-    <h2>Welcome to the admin page! <?php echo($password); ?></h2>
+    <h2>Welcome to the admin page!</h2>
   </div>
+
+  <form method="post" action="admin-page.php">
+    <input type="submit" value="Log Out" name="submit" id="btn" />
+  </form>
+
   <!-- include footer  section -->
   <?php
     include "includes/footer.php";
