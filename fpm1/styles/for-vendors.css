@@ -27,6 +27,10 @@
   /*border: red 1px solid;*/
 }
 
+#vendorForm textarea {
+  width:50%;
+}
+
 .qsection {
   margin-top: 5%;
   /*border: black 1px solid;*/
@@ -105,6 +109,10 @@ label {
   #form {
     width:70%;
     margin-left: 13%;
+  }
+
+  #vendorForm textarea {
+    width:70%;
   }
 
   #vendorcontactpic {
