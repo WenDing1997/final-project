@@ -14,6 +14,7 @@
         <p id=<?php if ($loggedIn == False) {echo "footer_hidden";} ?>>Number of total visitors: <?php echo "$count"; ?></p>
       </div>
 
+
       <div id="img_wrapper">
         <ul id="social-media-list">
           <li>
@@ -32,6 +33,8 @@
           </li>
         </ul>
       </div>
+
+    </div>
 
     <div id="footer_content_2">
       <ul id="footer_content_2_list">

@@ -1,10 +1,4 @@
-<!-- Begin hours & events html -->
-
-<!-- Run login script  -->
-<?php
-  // start new PHP session
-  session_start();
-
+<?php session_start();
   // if already logged in, go directly to admin-page.php
   if ($_SESSION['loggedIn']) {
     header("Location: admin-page.php");
@@ -76,13 +70,11 @@
   }  // end username if
 
 }
-
 ?>
-
   <!-- Include html header -->
-  <?php
-    include "includes/head.php";
+  <?php include "includes/head.php";
   ?>
+
   <link rel="stylesheet" type="text/css" href="styles/admin-login.css" media="all"/>
 
 </head>

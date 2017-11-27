@@ -1,6 +1,4 @@
-<!-- Begin hours & events html -->
-
-<?php include "includes/visitor_count.php"
+<?php session_start();
 
   $submit = $_REQUEST["submit"];
   $loggedIn = $_SESSION['loggedIn'];
@@ -38,6 +36,7 @@
     $f = fopen($visitor_count, "w");
     fwrite($f, $count);
     fclose($f);
+  }
 ?>
 
   <!-- Include html header -->
