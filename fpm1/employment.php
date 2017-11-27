@@ -1,10 +1,21 @@
 <?php
+// function debug_to_console( $data ) {
+//
+// 		if ( is_array( $data ) )
+// 			$output = "<script>console.log( 'Debug Objects: " . implode( ',', $data) . "' );</script>";
+// 		else
+// 			$output = "<script>console.log( $data );</script>";
+//
+// 		echo $output;
+// 	}
+
+
 $submit = $_REQUEST["submit"];
 $name = $_REQUEST["user_name1"];
 $email = $_REQUEST["user_mail1"];
 $heard = $_REQUEST["user_heard1"];
 $msg = $_REQUEST["user_message1"];
-$resume = $_REQUEST["resumeupload"];
+$resume = $_FILES['resumeupload'];
 $job = $_REQUEST["job"];
 
 
@@ -23,7 +34,11 @@ if (isset($submit)) {
   $isMsgEmpty = empty($msg);
   $isMsgValid = !$isMsgEmpty;
 
-  $isResumeValid = isset($resume);
+  $isResumeValid = strlen($resume['name']);
+  // $a = "apple";
+
+  // if(1 < 2) {debug_to_console($a);}
+  // debug_to_console($isResumeValid);
   // $isResumeEmpty = empty($resume);
   // $isResumeValid = !$isResumeEmpty;
 
@@ -32,7 +47,9 @@ if (isset($submit)) {
   // echo '<script>console.log('a')</script>';
   // logConsole("a");
 
-  if ($isNameValid && $isEmailValid && $isHeardValid && $isMsgValid && $isResumeValid && $isJobValid) {
+  $AllisValid = $isNameValid && $isEmailValid && $isHeardValid && $isMsgValid && ($isResumeValid > 1) && $isJobValid;
+
+  if ($isNameValid && $isEmailValid && $isHeardValid && $isMsgValid && ($isResumeValid > 1) && $isJobValid) {
     session_start();
     $_SESSION['name'] = $name;
     $_SESSION['email'] = $email;
@@ -49,7 +66,7 @@ if (isset($submit)) {
   $isEmailValid = true;
   $isHeardValid = true;
   $isMsgValid = true;
-  $isResumeValid = true;
+  $AllisValid = true;
   $isJobValid = true;
 }
 ?>
@@ -128,18 +145,21 @@ move_uploaded_file( $_FILES['resumeupload']['tmp_name'], $target_Path );
       <div>
         <label for="msg">Why do you want to join Summerhill Brewing?</label>
       </div>
-        <textarea id="msg" name="user_message1"><?php echo( htmlspecialchars($heard) );?></textarea>
+        <textarea id="msg" name="user_message1"><?php echo( htmlspecialchars($msg) );?></textarea>
         <span class="error <?php if ($isMsgValid) { echo("hidden"); } ?>" id="msgError">
           No answer provided.
         </span>
     </div>
 <!--The code for the resume-upload element is modified from developer.mozilla.org-->
     <div class="question">
+      <!-- <span class="<?php if ($isResumeValid < 1) { echo("hidden"); } ?>" id="resumeSubmitted">
+        Resume uploaded: <?php echo( htmlspecialchars($resume['name']) );?>
+      </span> -->
       <div>
       <label for="image_uploads">Please upload your resume (PDF).</label>
     </div>
-      <input type="file" id="resumeupload" name="resumeupload" accept=".pdf" value="<?php echo( htmlspecialchars($resume) );?>">
-      <span class="error <?php if ($isResumeValid) { echo("hidden"); } ?>" id="resumeError">
+      <input type="file" id="resumeupload" name="resumeupload" accept=".pdf">
+      <span class="error <?php if ($AllisValid) { echo("hidden"); } ?>" id="resumeError">
         No resume uploaded.
       </span>
     </div>
