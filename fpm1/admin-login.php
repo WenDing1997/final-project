@@ -99,8 +99,8 @@
 
   <div id="login-div">
     <div id="login-form">
-      <h2 class="<?php if(!$loggedOut) {echo("hidden");} ?>">Successfully Logged Out</h2>
-      <h2 class="<?php if(!$tooManyTries) {echo("hidden");} ?>">Too many false attempts. Try again later.</h2>
+      <h2 class="msg <?php if(!$loggedOut) {echo("hidden");} ?>">Successfully Logged Out</h2>
+      <h2 class="msg <?php if(!$tooManyTries) {echo("hidden");} ?>">Too many false attempts. Try again later.</h2>
 
       <h3>Welcome to administrative login.</h3>
       <form method="post" action="admin-login.php">
