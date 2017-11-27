@@ -1,18 +1,19 @@
 <!-- Begin website footer -->
 
-  <footer>
+<footer>
 
-    <div id="catchphrase"><p>"Worth the trip up the hill!"</p></div>
+  <div id="catchphrase"><p>"Worth the trip up the hill!"</p></div>
 
-    <button id="back_btn">Back to Top</button>
+  <button id="back_btn">Back to Top</button>
 
-    <div id="footer_content">
-
+  <div id="footer_content">
       <div id="footer_text">
         <p>Summerhill Brewing, LLC</p>
         <p>384 Champlin Rd | Groton, NY 13073</p>
         <p>607.591.6148&emsp;|&emsp;<a href="mailto:summerhill.brewing@gmail.com">summerhill.brewing@gmail.com</a></p>
+        <p id=<?php if ($loggedIn == False) {echo "footer_hidden";} ?>>Number of total visitors: <?php echo "$count"; ?></p>
       </div>
+
 
       <div id="img_wrapper">
         <ul id="social-media-list">

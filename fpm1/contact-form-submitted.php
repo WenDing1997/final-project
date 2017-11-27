@@ -1,4 +1,5 @@
-<?php
+<?php include "includes/head.php";
+
 $user_name=$_POST['user_name'];
 $user_mail=$_POST['user_mail'];
 $user_subject=$_POST['user_subject'];
@@ -14,9 +15,7 @@ file_put_contents($file, $data . PHP_EOL, FILE_APPEND);
 <!-- Being hours & events html -->
 
   <!-- Include html header -->
-  <?php
-    include "includes/head.php";
-  ?>
+
   <link rel="stylesheet" type="text/css" href="styles/employment.css" media="all"/>
 </head>
 

@@ -1,4 +1,4 @@
-<?php
+<?php include "includes/head.php";
 $submit = $_REQUEST["submit"];
 $businessorg = $_REQUEST["businessorg"];
 $contactname = $_REQUEST["contactname"];
@@ -44,9 +44,7 @@ if (isset($submit)) {
 <!-- Being hours & events html -->
 
   <!-- Include html header -->
-  <?php
-    include "includes/head.php";
-  ?>
+
   <link rel="stylesheet"
       type="text/css"
       href="styles/for-vendors.css"

@@ -1,4 +1,4 @@
-<?php
+<?php include "includes/head.php";
 $businessorg = $_POST['businessorg'];
 $address = $_POST['address'];
 $contactname = $_POST['contactname'];
@@ -16,9 +16,6 @@ file_put_contents($file, $data . PHP_EOL, FILE_APPEND);
 <!-- Being hours & events html -->
 
   <!-- Include html header -->
-  <?php
-    include "includes/head.php";
-  ?>
 </head>
 
 <body>

@@ -1,7 +1,4 @@
-<!-- Begin hours & events html -->
-
-  <!-- Include html header -->
-  <?php
+<?php
     include "includes/head.php";
   ?>
   <link rel="stylesheet" type="text/css" href="styles/directions.css" media="all"/>
