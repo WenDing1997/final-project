@@ -26,21 +26,15 @@
   ?>
 
 <!-- NEW CODE GOES HERE -->
-  <!-- <div id="tagline_div">
-    <div id="tagline">
-      <h2>Upcoming Hours and Events</h2>
-    </div>
-  </div> -->
-
-    <div id="note">
-      <p><span class="italic">Note:</span>  We are just starting out
-        with plans to expand in the near future. Because of the size of our
-        current brew system and having a shared space for public beer tasting
-        and brewing, we are not able to be open consistently. Please check our
-        website and <a href="https://www.facebook.com/Summerhill.brewing/"
-        target="_blank">Facebook page</a> for hours and openings. We sincerely
-        appreciate your patience and understanding!</p>
-    </div>
+  <div id="note">
+    <p><span class="italic">Note:</span>  We are just starting out
+      with plans to expand in the near future. Because of the size of our
+      current brew system and having a shared space for public beer tasting
+      and brewing, we are not able to be open consistently. Please check our
+      website and <a href="https://www.facebook.com/Summerhill.brewing/"
+      target="_blank">Facebook page</a> for hours and openings. We sincerely
+      appreciate your patience and understanding!</p>
+  </div>
 
   <div class="flex-container">
     <div class="sub-div">

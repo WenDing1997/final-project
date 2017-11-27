@@ -1,6 +1,6 @@
 // Set variable EMPLOYMENT_TEST_PHP_FORM to true, if you want to test PHP form validation for employment-form without
 // client-side jQuery validation.
-var EMPLOYMENT_TEST_PHP_FORM = true;
+var EMPLOYMENT_TEST_PHP_FORM = false;
 
 $(document).ready(function() {
   if(!EMPLOYMENT_TEST_PHP_FORM){
