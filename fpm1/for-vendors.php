@@ -1,4 +1,4 @@
-<?php include "includes/head.php";
+<?php
 $submit = $_REQUEST["submit"];
 $businessorg = $_REQUEST["businessorg"];
 $contactname = $_REQUEST["contactname"];
@@ -22,7 +22,6 @@ if (isset($submit)) {
   $isTelephoneValid = !$isTelephoneEmpty;
 
   if ($isBusinessorgValid && $isContactnameValid && $isEmailValid && $isTelephoneValid) {
-
     header("Location: handlingform.php");
     return;
   }
@@ -32,6 +31,7 @@ if (isset($submit)) {
   $isEmailValid = true;
   $isTelephoneValid = true;
 }
+include "includes/head.php";
 ?>
 
 <!-- Being hours & events html -->
