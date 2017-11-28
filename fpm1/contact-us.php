@@ -83,7 +83,7 @@ if (isset($submit)) {
           </span>
       </div>
       <div>
-          <label for="mail">Email:</label>
+          <label for="email">Email:</label>
       </div>
       <div>
           <input type="email" id="email" name="user_mail" value="<?php echo( htmlspecialchars($email) );?>">
@@ -92,7 +92,7 @@ if (isset($submit)) {
           </span>
       </div>
       <div>
-          <label for="heard">Subject:</label>
+          <label for="subject">Subject:</label>
       </div>
       <div>
           <input type="text" id="subject" name="user_subject" value="<?php echo( htmlspecialchars($subject) );?>">

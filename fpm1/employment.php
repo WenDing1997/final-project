@@ -111,7 +111,7 @@ if (isset($submit)) {
     </div>
     <div class="question">
         <div>
-        <label for="mail">Email:</label>
+        <label for="email">Email:</label>
       </div>
         <input type="email" id="email" name="user_mail1" value="<?php echo( htmlspecialchars($email) );?>">
         <span class="error <?php if ($isEmailValid) { echo("hidden"); } ?>" id="emailError">
@@ -142,7 +142,7 @@ if (isset($submit)) {
         Resume uploaded: <?php echo( htmlspecialchars($resume['name']) );?>
       </span> -->
       <div>
-      <label for="image_uploads">Please upload your resume (PDF).</label>
+      <label for="resumeupload">Please upload your resume (PDF).</label>
     </div>
       <input type="file" id="resumeupload" name="resumeupload" accept=".pdf">
       <span class="error <?php if ($AllisValid) { echo("hidden"); } ?>" id="resumeError">
