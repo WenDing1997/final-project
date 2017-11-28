@@ -1,5 +1,5 @@
 <?php include "includes/head.php";
-
+session_start();
 $user_name1=$_POST['user_name1'];
 $user_mail1=$_POST['user_mail1'];
 $user_heard1=$_POST['user_heard1'];

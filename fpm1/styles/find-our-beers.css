@@ -16,12 +16,20 @@
   margin-bottom: 55px;
 }
 
+.sub_flex_wrapper_2 p {
+  font-size: 18px;
+}
+
+.sub_flex_wrapper_2 li {
+  font-size: 18px;
+}
+
 .sub_flex_wrapper_2 ul{
   list-style-type: none;
   padding: 0px 0px 20px 0px;
 }
 
-#hours{
+.hours{
   font-style: italic;
 
 }
@@ -46,6 +54,8 @@
     flex-direction: column;
     width:100%;
   }
+
+
 
   .market_img img{
     width:120%;

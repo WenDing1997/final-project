@@ -182,6 +182,7 @@
 
   #info_div{
     flex-direction: column;
+    margin-left: 10%;
   }
 
   #item1{

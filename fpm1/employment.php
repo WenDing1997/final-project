@@ -1,4 +1,5 @@
 <?php
+
 $submit = $_REQUEST["submit"];
 $name = $_REQUEST["user_name1"];
 $email = $_REQUEST["user_mail1"];
@@ -92,7 +93,7 @@ if (isset($submit)) {
 <div id="main_box">
   <div id="main_text">
   <p>Looking for a fun and rewarding job? Join the Summerhill Brewing team and become a member of a close-knit, enthusiastic community that desires to produce the finest beer in a sustainable way!</p>
-  <img src="images/employment.jpg" />
+  <img src="images/employment.jpg" alt="employmentpic"/>
   <p>Please fill out the following form and upload your resume.</p>
   </div>
 
