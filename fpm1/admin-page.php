@@ -117,19 +117,19 @@
 
 
     <div id="event-entry">
-      <h3>Event 1</h3>
+      <h3>Tasting Room Hours 1</h3>
       Date 1:
       <input type="text" name="date-1"><br /><br />
       Time 1:
       <input type="test" name="time-1"><br /><br />
 
-      <h3>Event 2</h3>
+      <h3>Tasting Room Hours 2</h3>
       Date 2:
       <input type="text" name="date-2"><br /><br />
       Time 2:
       <input type="text" name="time-2"><br /><br />
 
-      <h3>Event 3</h3>
+      <h3>Tasting Room Hours 3</h3>
       Date 3:
       <input type="text" name="date-3"><br /><br />
       Time 3:
