@@ -9,7 +9,7 @@ $email = $_SESSION['email'];
 $telephone = $_SESSION['telephone'];
 $addq = $_SESSION['addq'];
 // save all input data as .csv columns
-$data = $businessorg.",".$address.",".$contactname.",".$email.",".$telephone.",".$addq;
+$data = $businessorg.",".$contactname.",".$email.",".$telephone.",".$address.",".$addq;
 // create variable for .csv filename
 $file = "vendorformdata.csv";
 // store all data in .csv file
