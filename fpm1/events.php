@@ -33,20 +33,39 @@
       appreciate your patience and understanding!</p>
   </div>
 
+  <?php
+    // create new xml DOMDocument
+    $xmlDOM=new DOMDocument();
+    // load configuration file for events page
+    $xmlDOM->load("config.xml");
+
+    $dates = $xmlDOM -> getElementsByTagName('date');
+    $times = $xmlDOM -> getElementsByTagName('time');
+
+    // get date/time nodes from config.xml
+    $date1 = $dates->item(0)->nodeValue;
+    $time1 = $times->item(0)->nodeValue;
+    $date2 = $dates->item(1)->nodeValue;
+    $time2 = $times->item(1)->nodeValue;
+    $date3 = $dates->item(2)->nodeValue;
+    $time3 = $times->item(2)->nodeValue;
+
+  ?>
+
   <div class="flex-container">
     <div class="sub-div">
       <h2>Upcoming Tasting Room Hours
         <span id="btn"><a href="directions.php">Get Directions<span id="arrow">&#8680;</span></a></span>
       </h2>
       <p class="date-and-time-info">
-        <span class="date">Wednesday, November 22nd</span><br>
-        <span class="italic time">2pm - 8pm</span></p>
+        <span class="date"><?php echo($date1); ?></span><br>
+        <span class="italic time"><?php echo($time1); ?></span></p>
       <p class="date-and-time-info">
-        <span class="date">Friday, November 24th</span><br>
-        <span class="italic time">1pm - 4pm</span></p>
+        <span class="date"><?php echo($date2); ?></span><br>
+        <span class="italic time"><?php echo($time2); ?></span></p>
       <p class="date-and-time-info">
-        <span class="date">Saturday, November 25th<br></span>
-        <span class="italic time">TBD</span></p>
+        <span class="date"><?php echo($date3); ?><br></span>
+        <span class="italic time"><?php echo($time3); ?></span></p>
 
     </div>
 ​    <div class="sub-div">

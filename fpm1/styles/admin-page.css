@@ -1,0 +1,27 @@
+.msg{
+  color: red;
+}
+
+#login-form{
+  /*background-color: lightblue;*/
+}
+
+#login-form h2{
+  display: inline-block;
+  /*border: 1px solid black;*/
+}
+
+#event-entry{
+  border: 1px solid black;
+}
+
+#submit_btn{
+  margin-bottom: 20px;
+  padding: 2px 20px 2px 20px;
+  float: right;
+}
+
+#update_btn{
+  margin: 20px 0px 20px 0px;
+  padding: 2px 20px 2px 20px;
+}
