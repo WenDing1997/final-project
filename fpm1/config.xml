@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tasting-room-hours>
   <tasting-room-event-1>
-    <date>Thursday December 23rd</date>
-    <time>1pm - 5pm</time>
+    <date>dec</date>
+    <time>10</time>
   </tasting-room-event-1>
   <tasting-room-event-2>
-    <date>Friday, January 5th</date>
-    <time>4pm - 9pm</time>
+    <date></date>
+    <time></time>
   </tasting-room-event-2>
   <tasting-room-event-3>
-    <date>Wednesday, January 15th</date>
-    <time>11am -5pm</time>
+    <date></date>
+    <time></time>
   </tasting-room-event-3>
 </tasting-room-hours>

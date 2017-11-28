@@ -1,15 +1,4 @@
 <?php
-// function debug_to_console( $data ) {
-//
-// 		if ( is_array( $data ) )
-// 			$output = "<script>console.log( 'Debug Objects: " . implode( ',', $data) . "' );</script>";
-// 		else
-// 			$output = "<script>console.log( $data );</script>";
-//
-// 		echo $output;
-// 	}
-
-
 $submit = $_REQUEST["submit"];
 $name = $_REQUEST["user_name1"];
 $email = $_REQUEST["user_mail1"];
@@ -35,17 +24,13 @@ if (isset($submit)) {
   $isMsgValid = !$isMsgEmpty;
 
   $isResumeValid = strlen($resume['name']);
-  // $a = "apple";
-
-  // if(1 < 2) {debug_to_console($a);}
-  // debug_to_console($isResumeValid);
-  // $isResumeEmpty = empty($resume);
-  // $isResumeValid = !$isResumeEmpty;
 
   $isJobEmpty = empty($job);
   $isJobValid = !$isJobEmpty;
   // echo '<script>console.log('a')</script>';
   // logConsole("a");
+
+  mail('wd87@cornell.edu', 'My Subject', 'Success');
 
   $AllisValid = $isNameValid && $isEmailValid && $isHeardValid && $isMsgValid && ($isResumeValid > 1) && $isJobValid;
 
@@ -149,7 +134,7 @@ if (isset($submit)) {
           No answer provided.
         </span>
     </div>
-<!--The code for the resume-upload element is modified from developer.mozilla.org-->
+    <!--The code for the resume-upload element is modified from developer.mozilla.org-->
     <div class="question">
       <!-- <span class="<?php if ($isResumeValid < 1) { echo("hidden"); } ?>" id="resumeSubmitted">
         Resume uploaded: <?php echo( htmlspecialchars($resume['name']) );?>
