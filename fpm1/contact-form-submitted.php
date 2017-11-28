@@ -5,7 +5,7 @@ $user_name=$_SESSION['username'];
 $user_mail=$_SESSION['usermail'];
 $user_subject=$_SESSION['usersubject'];
 $user_message=$_SESSION['usermessage'];
-echo("User message: " . $user_message);
+// echo("User message: " . $user_message);
 
 // store all user responses are .csv colums
 $data = $user_name.",".$user_mail.",".$user_subject.",".$user_message;
