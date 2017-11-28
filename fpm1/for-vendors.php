@@ -22,13 +22,6 @@ if (isset($submit)) {
   $isTelephoneValid = !$isTelephoneEmpty;
 
   if ($isBusinessorgValid && $isContactnameValid && $isEmailValid && $isTelephoneValid) {
-    session_start();
-    $_SESSION['businessorg'] = $businessorg;
-    $_SESSION['contactname'] = $contactname;
-    $_SESSION['email'] = $email;
-    $_SESSION['telephone'] = $telephone;
-    $_SESSION['address'] = $address;
-    $_SESSION['addq'] = $addq;
 
     header("Location: handlingform.php");
     return;
