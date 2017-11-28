@@ -69,7 +69,7 @@
     <div id="sub-div3">
       <p>
         We are located in Summerhill, NY, a beautiful town in Cayuga County, northeast
-        of Ithaca. This are was once occupied by the Onondaga people in the early 1700s.
+        of Ithaca. This was once occupied by the Onondaga people in the early 1700s.
         Originally named Locke, this town has become Summerhill since 1832 due to
         a name conflict with another Locke located west of Summerhill.
         Summerhill boasts spectacular scenery and fresh air, and it is truly a
