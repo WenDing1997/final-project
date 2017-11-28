@@ -138,9 +138,6 @@ if (isset($submit)) {
     </div>
     <!--The code for the resume-upload element is modified from developer.mozilla.org-->
     <div class="question">
-      <!-- <span class="<?php if ($isResumeValid < 1) { echo("hidden"); } ?>" id="resumeSubmitted">
-        Resume uploaded: <?php echo( htmlspecialchars($resume['name']) );?>
-      </span> -->
       <div>
       <label for="resumeupload">Please upload your resume (PDF).</label>
     </div>
