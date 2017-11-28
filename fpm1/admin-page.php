@@ -18,11 +18,12 @@
 
   // begin visitor counter code
   $visitor_count = "includes/visitor_count.txt";
-  $ip = array($_SERVER["REMOTE_ADDR"]);
+  $ip = $_SERVER["REMOTE_ADDR"];
 
   if (!is_writable($visitor_count)) {
     $f = fopen($visitor_count, "w");
-    $json_encode = json_encode($ip);
+    $ip_array = array($ip);
+    $json_encode = json_encode($ip_array);
     fwrite($f, $json_encode);
     fclose($f);
   }
