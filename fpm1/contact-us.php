@@ -1,5 +1,4 @@
-<?php include "includes/head.php";
-
+<?php
 $submit = $_REQUEST["submit"];
 $name = $_REQUEST["user_name"];
 $email = $_REQUEST["user_mail"];
@@ -32,6 +31,8 @@ if (isset($submit)) {
   $isSubjectValid = true;
   $isMsgValid = true;
 }
+
+include "includes/head.php";
 ?>
 <!-- Being hours & events html -->
 
