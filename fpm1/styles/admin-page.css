@@ -4,6 +4,7 @@
 
 #login-form{
   /*background-color: lightblue;*/
+  margin-left: 20px;
 }
 
 #login-form h2{
@@ -13,6 +14,7 @@
 
 #event-entry{
   border: 1px solid black;
+  padding-left: 20px;
 }
 
 #submit_btn{
