@@ -22,11 +22,6 @@ if (isset($submit)) {
   $isMsgValid = !$isMsgEmpty;
 
   if ($isNameValid && $isEmailValid && $isSubjectValid && $isMsgValid) {
-    // session_start();
-    $_SESSION['name'] = $name;
-    $_SESSION['email'] = $email;
-    $_SESSION['subject'] = $subject;
-    $_SESSION['msg'] = $msg;
 
     header("Location: contact-form-submitted.php");
     return;

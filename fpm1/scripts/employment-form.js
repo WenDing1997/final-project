@@ -48,7 +48,18 @@ $(document).ready(function() {
       $("#resumeError").show();
       IsValid = false;
     }
-    var isChecked =  $('input:checkbox').is(':checked')
+    var job1isChecked = $("#job1").is(":checked");
+    var job2isChecked = $("#job2").is(":checked");
+    var job3isChecked = $("#job3").is(":checked");
+    var job4isChecked = $("#job4").is(":checked");
+    var job5isChecked = $("#job5").is(":checked");
+    var job6isChecked = $("#job6").is(":checked");
+    var job7isChecked = $("#job7").is(":checked");
+    var job8isChecked = $("#job8").is(":checked");
+    var job9isChecked = $("#job9").is(":checked");
+    var job10isChecked = $("#job10").is(":checked");
+    var isChecked = job1isChecked || job2isChecked || job3isChecked || job4isChecked || job5isChecked || job6isChecked || job7isChecked || job8isChecked || job9isChecked || job10isChecked;
+    // var isChecked = $('input:checkbox').is(':checked')
     // console.log(isChecked);
     if(isChecked == true) {
       $("#jobError").hide();

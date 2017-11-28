@@ -5,7 +5,11 @@ $email = $_REQUEST["user_mail1"];
 $heard = $_REQUEST["user_heard1"];
 $msg = $_REQUEST["user_message1"];
 $resume = $_FILES['resumeupload'];
-$job = $_REQUEST["job"];
+$job = $_POST["job"];
+if ($job == 0) { $job = array("a"); }
+$b = array("a");
+// $a = (1 == 2);
+// echo '<script>console.log($a)</script>;
 
 
 if (isset($submit)) {
@@ -25,23 +29,20 @@ if (isset($submit)) {
 
   $isResumeValid = strlen($resume['name']);
 
-  $isJobEmpty = empty($job);
+  if ($job == $b) {
+    $isJobEmpty = true;
+  } else {
+    $isJobEmpty = false;
+  }
   $isJobValid = !$isJobEmpty;
   // echo '<script>console.log('a')</script>';
   // logConsole("a");
 
-  mail('wd87@cornell.edu', 'My Subject', 'Success');
+  // mail('wd87@cornell.edu', 'My Subject', 'Success');
 
   $AllisValid = $isNameValid && $isEmailValid && $isHeardValid && $isMsgValid && ($isResumeValid > 1) && $isJobValid;
 
   if ($isNameValid && $isEmailValid && $isHeardValid && $isMsgValid && ($isResumeValid > 1) && $isJobValid) {
-    session_start();
-    $_SESSION['name'] = $name;
-    $_SESSION['email'] = $email;
-    $_SESSION['heard'] = $heard;
-    $_SESSION['msg'] = $msg;
-    $_SESSION['resume'] = $resume;
-    $_SESSION['job'] = $job;
 
     //The following 3 lines of code are modified from w3schools.com
     $target_dir = "resume/";
@@ -152,16 +153,16 @@ if (isset($submit)) {
       <label id="checkbox_label">Please select all postions that you are applying for.</label>
     </div>
     <div id="checkbox_options">
-      <input type="checkbox" name="job[]" value="General Manager" <?php if (in_array("General Manager", $job)) { echo("checked"); } ?>> General Manager <br>
-      <input type="checkbox" name="job[]" value="Quality Manager" <?php if (in_array("Quality Manager", $job)) { echo("checked"); } ?>> Quality Manager <br>
-      <input type="checkbox" name="job[]" value="Brewery Sales Representative" <?php if (in_array("Brewery Sales Representative", $job)) { echo("checked"); } ?>> Brewery Sales Representative <br>
-      <input type="checkbox" name="job[]" value="Social Media Manager" <?php if (in_array("Social Media Manager", $job)) { echo("checked"); } ?>> Social Media Manager <br>
-      <input type="checkbox" name="job[]" value="Graphics Designer" <?php if (in_array("Graphics Designer", $job)) { echo("checked"); } ?>> Graphics Designer <br>
-      <input type="checkbox" name="job[]" value="Commnuications Manager" <?php if (in_array("Commnuications Manager", $job)) { echo("checked"); } ?>> Commnuications Manager <br>
-      <input type="checkbox" name="job[]" value="Marketing Manager" <?php if (in_array("Marketing Manager", $job)) { echo("checked"); } ?>> Marketing Manager <br>
-      <input type="checkbox" name="job[]" value="Website Coordinator" <?php if (in_array("Website Coordinator", $job)) { echo("checked"); } ?>> Website Coordinator <br>
-      <input type="checkbox" name="job[]" value="Server" <?php if (in_array("Server", $job)) { echo("checked"); } ?>> Server <br>
-      <input type="checkbox" name="job[]" value="Host" <?php if (in_array("Host", $job)) { echo("checked"); } ?>> Host
+      <input id="job1" type="checkbox" name="job[]" value="General Manager" <?php if (in_array("General Manager", $job)) { echo("checked"); } ?>> General Manager <br>
+      <input id="job2" type="checkbox" name="job[]" value="Quality Manager" <?php if (in_array("Quality Manager", $job)) { echo("checked"); } ?>> Quality Manager <br>
+      <input id="job3" type="checkbox" name="job[]" value="Brewery Sales Representative" <?php if (in_array("Brewery Sales Representative", $job)) { echo("checked"); } ?>> Brewery Sales Representative <br>
+      <input id="job4" type="checkbox" name="job[]" value="Social Media Manager" <?php if (in_array("Social Media Manager", $job)) { echo("checked"); } ?>> Social Media Manager <br>
+      <input id="job5" type="checkbox" name="job[]" value="Graphics Designer" <?php if (in_array("Graphics Designer", $job)) { echo("checked"); } ?>> Graphics Designer <br>
+      <input id="job6" type="checkbox" name="job[]" value="Commnuications Manager" <?php if (in_array("Commnuications Manager", $job)) { echo("checked"); } ?>> Commnuications Manager <br>
+      <input id="job7" type="checkbox" name="job[]" value="Marketing Manager" <?php if (in_array("Marketing Manager", $job)) { echo("checked"); } ?>> Marketing Manager <br>
+      <input id="job8" type="checkbox" name="job[]" value="Website Coordinator" <?php if (in_array("Website Coordinator", $job)) { echo("checked"); } ?>> Website Coordinator <br>
+      <input id="job9" type="checkbox" name="job[]" value="Server" <?php if (in_array("Server", $job)) { echo("checked"); } ?>> Server <br>
+      <input id="job10" type="checkbox" name="job[]" value="Host" <?php if (in_array("Host", $job)) { echo("checked"); } ?>> Host
       <span class="error <?php if ($isJobValid) { echo("hidden"); } ?>" id="jobError">
         Please select at least one position.
       </span>
