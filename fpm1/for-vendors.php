@@ -1,4 +1,4 @@
-<?php
+<?php session_start();
 $submit = $_REQUEST["submit"];
 $businessorg = $_REQUEST["businessorg"];
 $contactname = $_REQUEST["contactname"];
@@ -7,6 +7,14 @@ $telephone = $_REQUEST["telephone"];
 $address = $_REQUEST["address"];
 $addq = $_REQUEST["addq"];
 
+$_SESSION['businessorg'] = $businessorg;
+$_SESSION['address'] = $address;
+$_SESSION['contactname'] = $contactname;
+$_SESSION['email'] = $email;
+$_SESSION['telephone'] = $telephone;
+$_SESSION['addq'] = $addq;
+
+// if user clicks on submit button
 if (isset($submit)) {
   $isBusinessorgEmpty = empty($businessorg);
   $isBusinessorgValid = !$isBusinessorgEmpty;
@@ -34,16 +42,12 @@ if (isset($submit)) {
 include "includes/head.php";
 ?>
 
-<!-- Being hours & events html -->
-
-  <!-- Include html header -->
-
   <link rel="stylesheet"
       type="text/css"
       href="styles/for-vendors.css"
       media="all">
 
-      <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+      <!-- <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script> -->
       <script type="text/javascript" src="scripts/for-vendors-form.js"></script>
 </head>
 

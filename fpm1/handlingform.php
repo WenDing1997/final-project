@@ -1,16 +1,27 @@
-<?php include "includes/head.php";
-$businessorg = $_POST['businessorg'];
-$address = $_POST['address'];
-$contactname = $_POST['contactname'];
-$email = $_POST['email'];
-$telephone = $_POST['telephone'];
-$addq = $_POST['addq'];
+<?php session_start();
+include "includes/head.php";
 
+// get all submitted variables from $_SESSION
+$businessorg = $_SESSION['businessorg'];
+$address = $_SESSION['address'];
+$contactname = $_SESSION['contactname'];
+$email = $_SESSION['email'];
+$telephone = $_SESSION['telephone'];
+$addq = $_SESSION['addq'];
+// save all input data as .csv columns
 $data = $businessorg.",".$address.",".$contactname.",".$email.",".$telephone.",".$addq;
-
+// create variable for .csv filename
 $file = "vendorformdata.csv";
-
+// store all data in .csv file
 file_put_contents($file, $data . PHP_EOL, FILE_APPEND);
+
+// unset used variables
+unset($_SESSION['businessorg']);
+unset($_SESSION['address']);
+unset($_SESSION['contactname']);
+unset($_SESSION['email']);
+unset($_SESSION['telephone']);
+unset($_SESSION['addq']);
 ?>
 
 <!-- Being hours & events html -->

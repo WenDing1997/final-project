@@ -1,31 +1,33 @@
 <?php session_start();
 include "includes/head.php";
-$user_name1=$_POST['user_name1'];
-$user_mail1=$_POST['user_mail1'];
-$user_heard1=$_POST['user_heard1'];
-$user_message1=$_POST['user_message1'];
-$user_jobs = $_POST['job'];
+$user_name1=$_SESSION['username'];
+$user_mail1=$_SESSION['usermail'];
+$user_heard1=$_SESSION['userheard'];
+$user_message1=$_SESSION['usermessage'];
+$user_jobs = $_SESSION['job'];
 
 ///////////////////
 ///TEMPORARY FIX///
 ///////////////////
 if (is_array($user_jobs)) {
-foreach($user_jobs as $selected) {
-  $user_job=$user_job." - ".$selected;
-}
-}
+  foreach($user_jobs as $selected) {
+    $user_job=$user_job." - ".$selected;
+  }
+}  // end if
 
+// create data variable as a series of .csv columns
 $data = $user_name1.",".$user_mail1.",".$user_heard1.",".$user_message1.",".$user_job;
-
+// assign filename to variable for storage
 $file = "employmentformdata.csv";
-
+// save all data into a .csv file
 file_put_contents($file, $data . PHP_EOL, FILE_APPEND);
+// unset all used varibales
+unset($_SESSION['username']);
+unset($_SESSION['usermail']);
+unset($_SESSION['userheard']);
+unset($_SESSION['usermessage']);
+unset($_SESSION['job']);
 ?>
-
-<!-- Being hours & events html -->
-
-
-  <!-- Include html header -->
 
 <link rel="stylesheet" type="text/css" href="styles/employment.css" media="all"/>
 </head>
@@ -45,9 +47,6 @@ file_put_contents($file, $data . PHP_EOL, FILE_APPEND);
     <h2>Thank you! We will get back to you shortly.</h2>
   </div>
 </div>
-
-
-
 <!-- NEW CODE ENDS HERE -->
 
 

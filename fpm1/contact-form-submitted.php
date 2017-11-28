@@ -1,15 +1,23 @@
-<?php include "includes/head.php";
+<?php session_start();
+include "includes/head.php";
 
-$user_name=$_POST['user_name'];
-$user_mail=$_POST['user_mail'];
-$user_subject=$_POST['user_subject'];
-$user_message=$_POST['user_message'];
+$user_name=$_SESSION['username'];
+$user_mail=$_SESSION['usermail'];
+$user_subject=$_SESSION['usersubject'];
+$user_message=$_SESSION['usermessage'];
+echo("User message: " . $user_message);
 
+// store all user responses are .csv colums
 $data = $user_name.",".$user_mail.",".$user_subject.",".$user_message;
-
+// create variable to store filename
 $file = "contactformdata.csv";
-
+// write data to .csv file
 file_put_contents($file, $data . PHP_EOL, FILE_APPEND);
+// unset all used $_SESSION variables
+unset($_SESSION['username']);
+unset($_SESSION['usermail']);
+unset($_SESSION['usersubject']);
+unset($_SESSION['usermessage']);
 ?>
 
 <!-- Being hours & events html -->

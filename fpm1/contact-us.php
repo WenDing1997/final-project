@@ -1,15 +1,19 @@
-<?php
+<?php session_start();
 $submit = $_REQUEST["submit"];
 $name = $_REQUEST["user_name"];
 $email = $_REQUEST["user_mail"];
 $subject = $_REQUEST["user_subject"];
 $msg = $_REQUEST["user_message"];
 
+$_SESSION['username'] = $name;
+$_SESSION['usermail'] = $email;
+$_SESSION['usersubject'] = $subject;
+$_SESSION['usermessage'] = $msg;
+
+// when user clicks submit
 if (isset($submit)) {
   $isNameEmpty = empty($name);
   $isNameValid = !$isNameEmpty;
-  // echo '<script>console.log("apple")</script>';
-  // echo '<script>console.log("Your stuff here")</script>';
   $isEmailEmpty = empty($email);
   $isEmailAddress = filter_var($email, FILTER_VALIDATE_EMAIL);
   $isEmailValid = !$isEmailEmpty && $isEmailAddress;
@@ -20,12 +24,13 @@ if (isset($submit)) {
   $isMsgEmpty = empty($msg);
   $isMsgValid = !$isMsgEmpty;
 
+  // if all fields are valid submissions
   if ($isNameValid && $isEmailValid && $isSubjectValid && $isMsgValid) {
-
+    // redirect to successful submission page
     header("Location: contact-form-submitted.php");
     return;
   }
-} else {
+} else { // show error messages
   $isNameValid = true;
   $isEmailValid = true;
   $isSubjectValid = true;
@@ -34,11 +39,7 @@ if (isset($submit)) {
 
 include "includes/head.php";
 ?>
-<!-- Being hours & events html -->
 
-  <!-- Include html header -->
-
-  <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="scripts/contact-form.js"></script>
 </head>
 

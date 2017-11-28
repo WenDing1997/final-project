@@ -1,5 +1,6 @@
-<?php
+<?php session_start();
 
+// request all submitted variables
 $submit = $_REQUEST["submit"];
 $name = $_REQUEST["user_name1"];
 $email = $_REQUEST["user_mail1"];
@@ -9,10 +10,15 @@ $resume = $_FILES['resumeupload'];
 $job = $_POST["job"];
 if ($job == 0) { $job = array("a"); }
 $b = array("a");
-// $a = (1 == 2);
-// echo '<script>console.log($a)</script>;
 
+// store session variables to save .csv data
+$_SESSION['username'] = $name;
+$_SESSION['usermail'] = $email;
+$_SESSION['userheard'] = $heard;
+$_SESSION['usermessage'] = $msg;
+$_SESSION['userjob'] = $job;
 
+// when user clicks submit
 if (isset($submit)) {
   $isNameEmpty = empty($name);
   $isNameValid = !$isNameEmpty;
@@ -31,18 +37,16 @@ if (isset($submit)) {
   $isResumeValid = strlen($resume['name']);
 
   if ($job == $b) {
-    $isJobEmpty = true;
+    $isJobEmpty = True;
   } else {
-    $isJobEmpty = false;
+    $isJobEmpty = False;
   }
   $isJobValid = !$isJobEmpty;
-  // echo '<script>console.log('a')</script>';
-  // logConsole("a");
 
-  // mail('wd87@cornell.edu', 'My Subject', 'Success');
-
+  // set a variable for everything being valid
   $AllisValid = $isNameValid && $isEmailValid && $isHeardValid && $isMsgValid && ($isResumeValid > 1) && $isJobValid;
 
+  // if 
   if ($isNameValid && $isEmailValid && $isHeardValid && $isMsgValid && ($isResumeValid > 1) && $isJobValid) {
 
     //The following 3 lines of code are modified from w3schools.com
