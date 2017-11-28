@@ -72,7 +72,7 @@
       <h2>Upcoming Events</h2>
       <p class="date-and-time-info">
         <span class="bold events-title">BBQ Christmas in Moravia</span><br>
-        <span class="date">Satuday, December 2nd</span><br>
+        <span class="date">Saturday, December 2nd</span><br>
         <span class="italic time">10am to 10pm</span></p>
       <p class="date-and-time-info">
         <span class="bold events-title">"Cards and a Cold One" with Jess B. from "Card-iology"</span><br>
