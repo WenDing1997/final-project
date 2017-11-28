@@ -33,14 +33,14 @@
       <div class="market_description">
         <div>
           <h2>Brookton's Market</h2>
-          <p id="hours">Hours:</p>
+          <p class="hours">Hours:</p>
           <ul>
             <li>Monday - Thursday: 7:30am - 9pm</li>
             <li>Friday: 7:30am - 11pm</li>
             <li>Satruday: 8:30am - 11pm</li>
             <li>Sunday: 9:00am - 7pm</li>
           </ul>
-          <p>607-539-7900</br>info@brooktonsmarket.com</br>491 Brooktondale Road, Brooktondale, NY 14817<p>
+          <p>607-539-7900<br>info@brooktonsmarket.com<br>491 Brooktondale Road, Brooktondale, NY 14817<p>
           <p><a href="http://www.brooktonsmarket.com/" target="_blank">www.brooktonsmarket.com</a></p>
         </div>
       </div>
@@ -54,13 +54,13 @@
       <div class="market_description">
         <div>
           <h2>Ithaca Coffee Company @ Gateway</h2>
-          <p id="hours">Hours:</p>
+          <p class="hours">Hours:</p>
           <ul>
             <li>Monday - Friday: 7:00am - 9pm</li>
             <li>Satruday: 8:00am - 9pm</li>
             <li>Sunday: 8:00am - 6pm</li>
           </ul>
-          <p>607-257-2626</br>info@ithacacoffee.com</br>311 E. Green St.Ithaca, NY 14850<p>
+          <p>607-257-2626<br>info@ithacacoffee.com<br>311 E. Green St.Ithaca, NY 14850<p>
           <p><a href="https://www.ithacacoffee.com/our-stores/our-taverns">www.ithacacoffee.com</a></p>
         </div>
       </div>
@@ -80,7 +80,7 @@
             <li>Satruday: 8:00am - 9pm</li>
             <li>Sunday: 8:00am - 6pm</li>
           </ul>
-          <p>607-257-2626</br>info@ithacacoffee.com</br>Triphammer Marketplace 2255 N.Triphammer Rd.</br>Ithaca, NY 14850<p>
+          <p>607-257-2626<br>info@ithacacoffee.com<br>Triphammer Marketplace 2255 N.Triphammer Rd.<br>Ithaca, NY 14850<p>
           <p><a href="https://www.ithacacoffee.com/our-stores/our-taverns">www.ithacacoffee.com</a></p>
         </div>
       </div>

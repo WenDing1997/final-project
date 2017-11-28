@@ -30,7 +30,7 @@
     </div>
     <div class="address-text">
       <div>
-        <a href="https://www.google.com/maps/place/384+Champlin+Rd,+Groton,+NY+13073/@42.6363939,-76.3029237,15z/data=!4m5!3m4!1s0x89da7294d542dcc1:0x12c746c9f53de647!8m2!3d42.63639!4d-76.294169?hl=en" target="_blank" />
+        <a href="https://www.google.com/maps/place/384+Champlin+Rd,+Groton,+NY+13073/@42.6363939,-76.3029237,15z/data=!4m5!3m4!1s0x89da7294d542dcc1:0x12c746c9f53de647!8m2!3d42.63639!4d-76.294169?hl=en" target="_blank">
           <p>384 Champlin Road<br>Groton, NY 13073</p>
         </a>
       </div>
@@ -88,7 +88,7 @@
         <li>Follow Champlin Rd past Rt. 222 for about 5 miles</li>
         <li>The brewery will be on your right!</li>
         <li>(P.S. if you pass Rt. 90 you've gone too far!)</li>
-      <ul>
+      </ul>
     </div>
 
     <div class="inner-flex-item">
@@ -101,7 +101,7 @@
         <li>Follow Rt. 90 for 2 miles until Champlin Rd</li>
         <li>Turn left on Champlin Rd, past Steve's Auto Services</li>
         <li>The brewery will be on your left!</li>
-      <ul>
+      </ul>
     </div>
 
     <!-- <div class="inner-flex-item">
@@ -125,6 +125,7 @@
   ?>
 
 </div> <!-- end main_container div -->
+</div>
 
 </body> <!-- end body -->
 </html> <!-- end html -->

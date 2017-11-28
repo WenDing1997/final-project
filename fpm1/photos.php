@@ -25,49 +25,49 @@
 
   <div id="photo-div">
     <div class="photo-div-photo">
-      <img src="images/photos_page/15.jpg">
+      <img src="images/photos_page/15.jpg" alt="photo1">
     </div>
     <div class="photo-div-photo">
-      <img src="images/photos_page/2.jpg">
+      <img src="images/photos_page/2.jpg" alt="photo2">
     </div>
     <div class="photo-div-photo">
-      <img src="images/photos_page/3.jpg">
+      <img src="images/photos_page/3.jpg" alt="photo3">
     </div>
     <div class="photo-div-photo">
-      <img src="images/photos_page/4.jpg">
+      <img src="images/photos_page/4.jpg" alt="photo4">
     </div>
     <div class="photo-div-photo">
-      <img src="images/photos_page/5.jpg">
+      <img src="images/photos_page/5.jpg" alt="photo5">
     </div>
     <div class="photo-div-photo">
-      <img src="images/photos_page/6.jpg">
+      <img src="images/photos_page/6.jpg" alt="photo6">
     </div>
     <div class="photo-div-photo">
-      <img src="images/photos_page/7.jpg">
+      <img src="images/photos_page/7.jpg" alt="photo7">
     </div>
     <div class="photo-div-photo">
-      <img src="images/photos_page/8.jpg">
+      <img src="images/photos_page/8.jpg" alt="photo8">
     </div>
     <div class="photo-div-photo">
-      <img src="images/photos_page/9.jpg">
+      <img src="images/photos_page/9.jpg" alt="photo9">
     </div>
     <div class="photo-div-photo">
-      <img src="images/photos_page/10.jpg">
+      <img src="images/photos_page/10.jpg" alt="photo10">
     </div>
     <div class="photo-div-photo">
-      <img src="images/photos_page/11.jpg">
+      <img src="images/photos_page/11.jpg" alt="photo11">
     </div>
     <div class="photo-div-photo">
-      <img src="images/photos_page/12.jpg">
+      <img src="images/photos_page/12.jpg" alt="photo12">
     </div>
     <div class="photo-div-photo">
-      <img src="images/photos_page/13.jpg">
+      <img src="images/photos_page/13.jpg" alt="photo13">
     </div>
     <div class="photo-div-photo">
-      <img src="images/photos_page/14.jpg">
+      <img src="images/photos_page/14.jpg" alt="photo14">
     </div>
     <div class="photo-div-photo">
-      <img src="images/photos_page/16.jpg">
+      <img src="images/photos_page/16.jpg" alt="photo15">
     </div>
   </div>
 

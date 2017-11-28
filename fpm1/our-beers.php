@@ -27,7 +27,7 @@
 
     <div class="sub_flex_wrapper">
       <div class="beer_img">
-        <img src="images/millards_american_ale.PNG" />
+        <img src="images/millards_american_ale.PNG" alt="alephoto"/>
       </div>
       <div class="beer_description">
         <h3>Millard's American Ale</h3>
@@ -38,7 +38,7 @@
           President, Millard Fillmore is a native of Summerhill, and we thought
           it only fitting that we should name a beer for him. Millard's American
            Ale is a basic, easy drinking beer, best served ice cold.</p>
-        <p class="p2">Details</br>Alc. 6% // IBUs 17.6</p>
+        <p class="p2">Details<br>Alc. 6% // IBUs 17.6</p>
       </div>
     </div>
 
@@ -55,13 +55,13 @@
           base, malted wheat and Caramel and Chocolate malts. Summerhhill is
           well know for it's nudist camp and it is not uncommon for a cold Naked
            Neighbor to be sitting on our porch on  a hot summer evening.</p>
-        <p class="p2">Details</br>Alc. 6% // IBUs 17.6</p>
+        <p class="p2">Details<br>Alc. 6% // IBUs 17.6</p>
       </div>
     </div>
 
     <div class="sub_flex_wrapper">
       <div class="beer_img">
-        <img src="images/summer-hillbilly-fruit-wheat.PNG"/>
+        <img src="images/summer-hillbilly-fruit-wheat.PNG" alt="fruitwheatphoto"/>
       </div>
       <div class="beer_description">
         <h3>Summer Hillbilly Fruit Wheat</h3>
@@ -70,7 +70,7 @@
           which has Hollenbecks' Cider)--allowing our Cascade and Willamette
           hops to take the lead in flavor. A relaxing way to enjoy the fruits of
            our northern Appalachian landscape.</p>
-        <p class="p2">Details</br>Alc. 4% // IBUs 14</p>
+        <p class="p2">Details<br>Alc. 4% // IBUs 14</p>
       </div>
     </div>
 
@@ -89,7 +89,7 @@
             Summerhill resident Elbridge G Spaulding who as a US Congressman
             drafted the National Currency Bank Bill creating our National paper
             currency.</p>
-          <p class="p2">Details</br>Alc. 7% // IBUs 78</p>
+          <p class="p2">Details<br>Alc. 7% // IBUs 78</p>
       </div>
     </div>
 
@@ -108,7 +108,7 @@
            aroma. Iron Plow is named for Jethro Wood of nearby Scipio, NY,
            inventor of the iron plow with replaceable parts. Light in body  for
            a porter, this is an easy drinking brew.</p>
-        <p class="p2">Details</br>Alc. 6% // IBUs 28</p>
+        <p class="p2">Details<br>Alc. 6% // IBUs 28</p>
       </div>
     </div>
 

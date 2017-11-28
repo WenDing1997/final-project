@@ -28,7 +28,7 @@
     <h3>The importance of local produce</h3>
     <div class="sub-div">
       <div class="sub-div-img">
-        <img src="images/sq3.jpg">
+        <img src="images/sq3.jpg" alt="communitypic1">
       </div>
       <div class="sub-div-description">
         <p>
@@ -56,7 +56,7 @@
     <h3>Our commitment to green practices</h3>
     <div class="sub-div">
       <div class="sub-div-img">
-        <img src="images/photos_page/12.jpg">
+        <img src="images/photos_page/12.jpg" alt="communitypic2">
       </div>
       <div class="sub-div-description">
         <p>Summerhill is committed to green practices in our operations. We have

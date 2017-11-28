@@ -1,4 +1,5 @@
 <?php
+
 $submit = $_REQUEST["submit"];
 $name = $_REQUEST["user_name1"];
 $email = $_REQUEST["user_mail1"];
@@ -93,7 +94,7 @@ if (isset($submit)) {
 <div id="main_box">
   <div id="main_text">
   <p>Looking for a fun and rewarding job? Join the Summerhill Brewing team and become a member of a close-knit, enthusiastic community that desires to produce the finest beer in a sustainable way!</p>
-  <img src="images/employment.jpg" />
+  <img src="images/employment.jpg" alt="employmentpic"/>
   <p>Please fill out the following form and upload your resume.</p>
   </div>
 
@@ -110,7 +111,7 @@ if (isset($submit)) {
     </div>
     <div class="question">
         <div>
-        <label for="mail">Email:</label>
+        <label for="email">Email:</label>
       </div>
         <input type="email" id="email" name="user_mail1" value="<?php echo( htmlspecialchars($email) );?>">
         <span class="error <?php if ($isEmailValid) { echo("hidden"); } ?>" id="emailError">
@@ -141,7 +142,7 @@ if (isset($submit)) {
         Resume uploaded: <?php echo( htmlspecialchars($resume['name']) );?>
       </span> -->
       <div>
-      <label for="image_uploads">Please upload your resume (PDF).</label>
+      <label for="resumeupload">Please upload your resume (PDF).</label>
     </div>
       <input type="file" id="resumeupload" name="resumeupload" accept=".pdf">
       <span class="error <?php if ($AllisValid) { echo("hidden"); } ?>" id="resumeError">

@@ -94,7 +94,7 @@ if (isset($submit)) {
         <div class="qsection">
         <!-- <div class="a"> -->
           <div class="question">
-            <label for="lastName">Contact Email: </label>
+            <label for="email">Contact Email: </label>
           </div>
           <div class="answer">
             <input type="email" name="email" id="email" value="<?php echo( htmlspecialchars($email) );?>">
