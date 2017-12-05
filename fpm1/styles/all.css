@@ -2,7 +2,9 @@
 
 /*---------------------- Handle custom fonts here -----------------------------*/
 
-/*Font by Khrys Bosland, src: http://www.fontspace.com/khryskreations/kbreindeergames */
+/* All custom fonts were saved from Google Fonts (https://fonts.google.com/) and
+introduced here using methods learned in lab. No external code HTML/CSS code was
+used to introduce the fonts. */
 @font-face{
   font-family: "cabin";
   src: url('../fonts/Cabin-Regular.ttf');
