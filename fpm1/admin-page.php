@@ -16,56 +16,6 @@
     header("Location: admin-login.php");
   }
 
-  // begin visitor counter code
-  $visitor_count = "includes/visitor_count.txt";
-  $ip = $_SERVER["REMOTE_ADDR"];
-
-  if (!is_writable($visitor_count)) {
-    $f = fopen($visitor_count, 'w');
-    fwrite($f, 1);
-    fclose($f);
-  }
-
-  $count = file_get_contents("includes/visitor_count.txt");
-  $count = $count + 1;
-
-  $f = fopen($visitor_count, 'w');
-  fwrite($f, $count);
-  fclose($f);
-
-  //////////////////////////////////////////////
-  ///CODE IN PROGRESS FOR IP ADDRESS COUNTING///
-  //////////////////////////////////////////////
-
-  // if (!is_writable($visitor_count)) {
-  //   $f = fopen($visitor_count, "w");
-  //   $ip_array = array($ip);
-  //   $json_encode = json_encode($ip_array);
-  //   fwrite($f, $json_encode);
-  //   fclose($f);
-  // }
-  //
-  // $fcontent = file_get_contents("includes/visitor_count.txt");
-  // $json_decode = json_decode($fcontent, true);
-  //
-  // foreach ($json_decode as $unique_ip) {
-  //   if ($ip == $unique_ip) {
-  //     $increment_user_count = false;
-  //   }
-  // }
-  //
-  // if ($increment_user_count) {
-  //   $_SESSION["visited"] = true;
-  //   array_push($json_decode, $ip);
-  //   $f = fopen($visitor_count, "w");
-  //   $json_encode = json_encode($json_decode);
-  //   fwrite($f, $json_encode);
-  //   fclose($f);
-  // }
-  //
-  // $count = count($json_decode);
-  // finish visitor counter code
-
   // begin xml editing code
   $success = False;
   $update = $_REQUEST['update'];
