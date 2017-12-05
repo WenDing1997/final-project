@@ -4,7 +4,7 @@ $user_name1=$_SESSION['username'];
 $user_mail1=$_SESSION['usermail'];
 $user_heard1=$_SESSION['userheard'];
 $user_message1=$_SESSION['usermessage'];
-$user_jobs = $_SESSION['job'];
+$user_jobs = $_SESSION['userjob'];
 
 ///////////////////
 ///TEMPORARY FIX///
