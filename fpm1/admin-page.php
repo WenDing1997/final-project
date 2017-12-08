@@ -16,6 +16,23 @@
     header("Location: admin-login.php");
   }
 
+  //count # of visitors
+
+  $visitor_count = "includes/visitor_count.txt";
+
+  if (!is_writable($visitor_count)) {
+    $f = fopen($visitor_count, "w");
+    $ip_array = array($ip);
+    $json_encode = json_encode($ip_array);
+    fwrite($f, $json_encode);
+    fclose($f);
+  }
+
+  $fcontent = file_get_contents("includes/visitor_count.txt");
+  $json_decode = json_decode($fcontent, true);
+
+  $count = count($json_decode);
+
   // begin xml editing code
   $success = False;
   $update = $_REQUEST['update'];
