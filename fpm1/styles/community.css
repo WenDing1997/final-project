@@ -18,6 +18,14 @@ p {
   padding: 0;
 }
 
+.sub-div p{
+  font-size: 18px;
+}
+
+#sub-div3 p{
+  font-size: 18px;
+}
+
 .column {
 
 }

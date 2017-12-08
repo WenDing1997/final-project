@@ -42,7 +42,7 @@
 
 
 /* Handle responsive CSS here */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1050px) {
 
   #main_flex_wrapper {
     width: 90%;
@@ -54,6 +54,7 @@
   }
 
   .beer_img{
+    margin-left: 3%;
     width: 100%;
   }
 

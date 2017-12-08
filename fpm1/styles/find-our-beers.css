@@ -48,13 +48,16 @@
 }
 
 /* Handle responsive CSS here */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
 
   .sub_flex_wrapper_2{
     flex-direction: column;
     width:100%;
   }
 
+  #main_flex_wrapper_2{
+    margin-left: 12%;
+  }
 
 
   .market_img img{
