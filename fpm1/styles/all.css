@@ -22,8 +22,6 @@ used to introduce the fonts. */
 
 /*---------------------------- End fonts --------------------------------------*/
 
-/**/
-
 .italic{
   font-style: italic;
 }
@@ -34,10 +32,8 @@ used to introduce the fonts. */
 
 #main_container{
   color: inherit;
-  /*background-color: #d1d1e0;*/
   width: auto;
   height: auto;
-  /*border: 1px solid purple;*/
   font-family: cabin;
   max-width: 1300px;
   margin: 0px auto;
@@ -60,13 +56,11 @@ a:active{
   height: auto;
   position: relative;
   padding: 30px 0px 10px 0px;
-  /*border: 1px solid blue;*/
 }
 
 #logo_div_inner{
   width: 40%;
   margin: 0 auto; /* Centers element */
-  /*border: solid 1px black;*/
 }
 
 #logo_div_inner img{
@@ -76,11 +70,6 @@ a:active{
 #logo_tag{
   height: auto;
   text-align: center;
-  /*background-color: lightblue;*/
-}
-
-#logo_tag h2{
-  /*margin: 0px;*/
 }
 
 #tagline_div{
@@ -258,7 +247,6 @@ footer{
 }
 
 #footer_content{
-  /*min-height: 200px;*/
   background-color: #1E1E1E;
   display: flex;
   flex-direction: row;
@@ -270,7 +258,6 @@ footer{
 #footer_text{
   width: 75%;
   color: #ffffff;
-  /*border: 1px solid red;*/
 }
 
 #footer_text p{
@@ -342,7 +329,6 @@ footer{
 #logo_div_inner{
   width: 50%;
   margin: 0 auto; /* Centers element */
-  /*border: solid 1px black;*/
 }
 
 #footer_content{
@@ -365,15 +351,10 @@ footer{
 
 nav{
   display: none;
-  /*text-align: left;*/
 }
 
 nav ul{
   border-top: none;
-}
-
-nav li{
-  /*padding-left: 30%;*/
 }
 
 #responsive_menu_btn{
@@ -391,7 +372,6 @@ nav li{
 
 #fb, #tw{
   margin: 0px 20px 8px 0px;
-  /*width: 30px;*/
 }
 
 #in{

@@ -39,12 +39,6 @@
         href="styles/index.css"
         media="all">
 
-  <!-- <link rel="stylesheet"
-        type="text/css"
-        href="http://www.w3schools.com/lib/w3.css"
-        media="all"> -->
-
-
     <!-- Load slideshow script-->
     <script src="scripts/slideshow.js" type="text/javascript"></script>
     <script src="scripts/down.js" type="text/javascript"></script>
@@ -65,10 +59,6 @@
   </div>
 
   <div class="slideshow">
-
-    <!-- <div class="slideshow_img">
-      <img class="slide" src="images/Bar_Images/bottles.JPG" alt="bottles" />
-    </div> -->
 
     <div class="slideshow_img w3-content w3-section">
       <img class="slide w3-animate-left" src="images/Bar_Images/flight.JPG" alt="flight" />

@@ -104,10 +104,6 @@
       </ul>
     </div>
 
-    <!-- <div class="inner-flex-item">
-      <p>P2</p>
-    </div> -->
-
   </div>
 
   <div class="outer-flex-item" id="custom-map">

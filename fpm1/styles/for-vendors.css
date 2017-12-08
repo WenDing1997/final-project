@@ -15,7 +15,6 @@
   width: 100%;
   float:left;
   margin-top:2%;
-  /*border: red 1px solid;*/
 }
 
 #vendorForm textarea {
@@ -24,7 +23,6 @@
 
 .qsection {
   margin-top: 5%;
-  /*border: black 1px solid;*/
 }
 
 #submit {
@@ -47,9 +45,7 @@
   display: inline-block;
   background-color: white;
   color: red;
-  /*padding: 1px;*/
   font-weight: bold;
-  /*border: 1px red solid;*/
 }
 
 .hidden {
@@ -58,7 +54,6 @@
 
 #formandpic{
   display: block;
-  /*border: 1px red solid;*/
   width: 70%;
   height: 100%;
   margin: auto;
@@ -68,10 +63,7 @@
 
 #form{
   width: 50%;
-  /*height: 400px;*/
   float: left;
-  /*margin: auto;*/
-  /*border: 1px red solid;*/
 }
 
 #vendorForm{

@@ -8,27 +8,20 @@
   font-size:18px;
 }
 
-
 #main_box img{
   width: 100%;
   margin: auto
 }
 
 #main_text{
-  /*width: 70%;*/
   margin: auto;
-  /*border: 1px solid red;*/
 }
-
 
 form {
   font-size:18px;
   margin: 0px;
   width: 630px;
   padding: 10px;
-  /*border: 1px solid #CCC;*/
-  /*border-radius: 1em;*/
-  /*border: 1px red solid;*/
 }
 
 form textarea {
@@ -39,22 +32,13 @@ form div + div {
   margin-top: 5px;;
 }
 
-
-
 .button{
   margin-top: 10%;
   margin-bottom: 5%;
 }
 
-#checkbox_label{
-
-  /*border: 1px red solid;*/
-}
-
 #checkbox_options{
-  /*padding-left: 220px;*/
   float: left;
-  /*border: 1px black solid;*/
   margin-left: 0px;
   padding: 5px;
 }
@@ -62,14 +46,10 @@ form div + div {
 #form_div{
   width: 600px;
   margin-left: 2%;
-  /*border-bottom: 0.5px solid #a1bbd0;*/
-  /*border: 1px blue solid;*/
 }
 
 #checkbox{
-  /*width: 50%;*/
   height: 210px;
-  /*border: 1px red solid;*/
 }
 
 .error {
@@ -91,8 +71,6 @@ form div + div {
 .question{
   margin-bottom: 3%;
 }
-
-
 
 @media screen and (max-width: 700px) {
 
@@ -120,8 +98,5 @@ form div + div {
   .question{
     margin-bottom: 7%;
   }
-
-
-
 
 }

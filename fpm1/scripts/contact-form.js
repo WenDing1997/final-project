@@ -5,7 +5,6 @@ var CONTACT_TEST_PHP_FORM = false;
 $(document).ready(function() {
   if(!CONTACT_TEST_PHP_FORM){
   $("#contactForm").on("submit", function() {
-    // console.log(1);
     var IsValid = true;
     var nameEmpty = document.getElementById("name").value;
     var nameIsValid = $("#name").prop("validity").valid;
@@ -31,17 +30,14 @@ $(document).ready(function() {
       $("#subjectError").show();
       IsValid = false;
     }
-    // var msgIsValid = $("#msg").prop("validity").valid;
     var empty = document.getElementById("msg").value;
-    // console.log(empty);
-    // console.log(empty.length);
     if(empty.length > 0) {
       $("#msgError").hide();
     } else {
       $("#msgError").show();
       IsValid = false;
     }
-    // console.log(IsValid);
+
     return IsValid;
   });
   }

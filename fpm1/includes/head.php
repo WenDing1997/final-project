@@ -1,5 +1,3 @@
-
-
 <!-- Begin common header for all pages -->
 
 <!-- Set HTML -->

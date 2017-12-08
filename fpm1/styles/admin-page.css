@@ -3,13 +3,11 @@
 }
 
 #login-form{
-  /*background-color: lightblue;*/
   margin-left: 20px;
 }
 
 #login-form h2{
   display: inline-block;
-  /*border: 1px solid black;*/
 }
 
 #event-entry{
