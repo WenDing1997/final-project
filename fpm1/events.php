@@ -103,12 +103,6 @@
         <span class="italic time">TBD</span></p>
     </div>
 
-    <!-- <div class="sub-div">
-      <h2>Past Events</h2>
-      <p class="date-info">December 2nd 10am to 10pm:  BBQ Christmas in Moravia</p>
-      <p class="date-info">December 3rd 3pm to 6pm: "Cards and a Cold One" with Jess B. from "Card-iology"</p>
-    </div> -->
-
   </div>
 
 <!-- NEW CODE ENDS HERE -->

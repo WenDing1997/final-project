@@ -5,6 +5,10 @@
         type="text/css"
         href="styles/our-beers.css"
         media="all">
+
+  <!-- to manage past-events toggle -->
+  <script src="scripts/past-seasonals.js" type="text/javascript"></script>
+
 </head>
 
 <body>
@@ -61,21 +65,6 @@
 
     <div class="sub_flex_wrapper">
       <div class="beer_img">
-        <img src="images/summer-hillbilly-fruit-wheat.PNG" alt="fruitwheatphoto"/>
-      </div>
-      <div class="beer_description">
-        <h3>Summer Hillbilly Fruit Wheat</h3>
-        <p class="p1">An American Wheat recipe utilizing malted wheat, barley and Munich
-          (barley) malt for body. Fruit puree is added (except for the apple,
-          which has Hollenbecks' Cider)--allowing our Cascade and Willamette
-          hops to take the lead in flavor. A relaxing way to enjoy the fruits of
-           our northern Appalachian landscape.</p>
-        <p class="p2">Details<br>Alc. 4% // IBUs 14</p>
-      </div>
-    </div>
-
-    <div class="sub_flex_wrapper">
-      <div class="beer_img">
         <img src="images/paper_money_ipa.PNG" alt="paper_money_ipa"/>
       </div>
       <div class="beer_description">
@@ -112,16 +101,32 @@
       </div>
     </div>
 
-    <!-- <div class="sub_flex_wrapper">
+    <div class="seasonal-brews">
+      <h2>Seasonal Brews</h2>
+    </div>
+
+    <div class="sub_flex_wrapper">
       <div class="beer_img">
-        <img />
+        <img src="images/summer-hillbilly-fruit-wheat.PNG" alt="fruitwheatphoto"/>
       </div>
       <div class="beer_description">
-        <h3></h3>
-        <p class="p1"></p>
-        <p></p>
+        <h3>Summer Hillbilly Fruit Wheat</h3>
+        <p class="p1">An American Wheat recipe utilizing malted wheat, barley and Munich
+          (barley) malt for body. Fruit puree is added (except for the apple,
+          which has Hollenbecks' Cider)--allowing our Cascade and Willamette
+          hops to take the lead in flavor. A relaxing way to enjoy the fruits of
+           our northern Appalachian landscape.</p>
+        <p class="p2">Details<br>Alc. 4% // IBUs 14</p>
       </div>
-    </div> -->
+    </div>
+
+    <div class="seasonal-brews past-seasonals">
+      <h2>Past Seasonals <span class="dt">&#x25BC;</span><span class="rt">&#x25B6;</span></h2>
+    </div>
+
+    <div id="past-seasonals-container">
+      <p>No past seasonals currently available.</p>
+    </div>
 
   </div>
 
