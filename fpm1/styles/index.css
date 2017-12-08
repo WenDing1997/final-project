@@ -1,4 +1,30 @@
 
+#instruction{
+  margin: 0px auto;
+  width: 70%;
+  border: 1px solid #F3E5AB;
+  border-radius: 7px;
+  background: repeating-linear-gradient(
+    115deg,
+    #f4f4b7,
+    #f4f4b7 8px,
+    #ffffff 8px,
+    #ffffff 20px
+  );
+  text-align: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+#instruction h2{
+  color: #3F4234;
+  font-size: 170%;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 0px;
+  margin: 8px;
+}
+
 .slideshow{
   width: 100%;
   margin-top: 40px;

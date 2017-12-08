@@ -136,12 +136,6 @@ iframe {
   display: none;
 }
 
-/*@media screen and (max-width: 700px) {
-  iframe {
-    visibility: hidden;
-  }
-}*/
-
 @media screen and (max-width: 700px) {
   #btn{
     margin:10%;

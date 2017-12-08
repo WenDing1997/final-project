@@ -47,6 +47,7 @@
 
     <!-- Load slideshow script-->
     <script src="scripts/slideshow.js" type="text/javascript"></script>
+    <script src="scripts/down.js" type="text/javascript"></script>
 
 </head>
 
@@ -59,6 +60,9 @@
   <?php
     include "includes/header.php";
   ?>
+  <div id="instruction">
+    <h2>Scroll down for events and directions info!</h2>
+  </div>
 
   <div class="slideshow">
 
