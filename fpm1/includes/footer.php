@@ -11,6 +11,7 @@
         <p>Summerhill Brewing, LLC</p>
         <p>384 Champlin Rd | Groton, NY 13073</p>
         <p>607.591.6148&emsp;|&emsp;<a href="mailto:summerhill.brewing@gmail.com">summerhill.brewing@gmail.com</a></p>
+        <p id="photo-cred">All Photo Credit: Our Camera</p>
         <p id=<?php if ($loggedIn == False) {echo "footer_hidden";} ?>>Number of total visitors: <?php echo "$count"; ?></p>
       </div>
 
