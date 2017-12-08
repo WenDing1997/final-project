@@ -70,7 +70,6 @@
       <img src="images/photos_page/16.jpg" alt="photo15">
     </div>
   </div>
-
 <!-- NEW CODE ENDS HERE -->
 
 
